@@ -22,11 +22,10 @@ A documentation-only local edit in Plonky3's
 `air/src/symbolic/variable.rs` removes an unrelated implementation citation. The
 degree calculation and executable code are unchanged from the pinned revision.
 
-There is currently no top-level license for the original project code. Upstream
-licenses apply to their respective sources; they do not establish a blanket license
-for this application. Select a project license and resolve the bitmap font's
-provenance before describing the repository as open-source. No license has been
-assigned to the font by this review.
+The original project code is licensed under the top-level MIT license, copyright
+2026 Luis Alejandro Mata. Upstream sources retain their own copyright and license
+notices. The copied bitmap font's provenance remains unresolved; the project MIT
+license does not assign new rights to that separately attributed asset.
 
 The publication exporter retains upstream license files and copies source trees
 without nested .git metadata.

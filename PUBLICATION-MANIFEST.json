@@ -78,13 +78,13 @@
     },
     {
       "path": "docs/publication-review.md",
-      "sha256": "a9894a1cfcdafe62046f342153ebe8a65eb944bf8dd6e6310c508adfbe830945",
-      "bytes": 4930
+      "sha256": "89cb9452802ebffb40336517d5435a1aa2beb213009c40f051e974c2a531c7fc",
+      "bytes": 4972
     },
     {
       "path": "docs/third-party-notices.md",
-      "sha256": "d45bac0122185115fad466b900a252de1a485eb8df4636b80a19095925d86a02",
-      "bytes": 2304
+      "sha256": "8d218c6757f4b948da1340bd6fba6edfed214d15303b980e2c98b04e9c21f507",
+      "bytes": 2262
     },
     {
       "path": "docs/threat-model.md",
@@ -182,6 +182,11 @@
       "bytes": 1836
     },
     {
+      "path": "LICENSE",
+      "sha256": "6802bffdf71ca4c8de5f3a311b196374f6a2ede1b9722581be3be9f6053b8ebe",
+      "bytes": 1076
+    },
+    {
       "path": "prover/__init__.py",
       "sha256": "430f84b289fc2333fe9411374571b8256ec72af879c2a51716d6285843f6aadf",
       "bytes": 58
@@ -203,8 +208,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "ab29a081392bae87376c17ad6686b1e2a33f4fc63bf2616da9eff1af9a3f47ba",
-      "bytes": 15508
+      "sha256": "96b3f081c187306860d5c4d4e02dcb61880f71fd448042236297bd353516aa0e",
+      "bytes": 5468
     },
     {
       "path": "scripts/adapt_zkmcu.py",
@@ -3013,8 +3018,8 @@
     },
     {
       "path": "verifier/embedded/Cargo.toml",
-      "sha256": "71b56ce577720cbb732dbf7fbf4063333098edb411e9b5ed38d376ca421812f3",
-      "bytes": 232
+      "sha256": "125e7afb03d0a5380b4cfd68ec5d40b456eea27abea5cfb0a6faad90b59f5ad0",
+      "bytes": 248
     },
     {
       "path": "verifier/embedded/src/lib.rs",
@@ -3023,8 +3028,8 @@
     },
     {
       "path": "verifier/zkmcu-zk/Cargo.toml",
-      "sha256": "6a00f607427591c793736df10d08e209488e3d026e8d6898499652fa1f582840",
-      "bytes": 1500
+      "sha256": "af800373700e6b374b7c44ca64b7e0ca557baa6f12e3f0d1ab159d558f24bdbd",
+      "bytes": 1516
     },
     {
       "path": "verifier/zkmcu-zk/src/air.rs",

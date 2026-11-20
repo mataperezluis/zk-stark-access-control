@@ -22,10 +22,11 @@ weather/HMAC workspace is not part of the proposed public repository.
 
 ## Git history
 
-The surrounding workspace and the publication snapshot have local Git repositories
-with no commits or remotes at the time of this review. The publication snapshot has
-its own index and `main` branch. Vendored sources are ordinary files without nested
-repository metadata. No hosted repository has been created or updated by this review.
+The publication copy has its own Git repository on `main`, tracking
+https://github.com/mataperezluis/zk-stark-access-control. The initial publication
+commit is `ca3bdfc73bc683ea4b53fa7d118907ba4fba447d`. Vendored sources are ordinary
+files without nested repository metadata. The surrounding workspace is not the
+repository used for publication.
 
 ## Reproducibility
 
@@ -41,12 +42,13 @@ repository metadata. No hosted repository has been created or updated by this re
 - Recorded device measurements remain dated historical evidence, not new hardware
   measurements made during this publication review.
 
-## Remaining licensing decisions
+## Licensing
 
-There is no top-level license for original application code. A license has not been
-chosen on the author's behalf. The copied `firmware/include/display_font.h` also has
-no clear author/license notice; resolve its provenance or replace it with an asset
-whose redistribution terms are known. The JD9853 driver has Apache-2.0 SPDX notices.
+At the author's request, the original application code is licensed under MIT;
+see the top-level [LICENSE](../LICENSE). Dependency notices remain intact. The
+copied `firmware/include/display_font.h` has no clear author/license notice, so
+its provenance remains a separate attribution issue; the top-level license does
+not relicense that asset. The JD9853 driver has Apache-2.0 SPDX notices.
 See [third-party notices](third-party-notices.md).
 
 ## Verification performed during this review
@@ -60,7 +62,7 @@ See [third-party notices](third-party-notices.md).
   `xtensa-esp32s3-none-elf`, and the complete PlatformIO firmware build passed.
   The firmware version is explicitly kept at `1` so builds also work in a new Git
   repository without commits or tags.
-- The source snapshot contains 612 source/documentation files plus its SHA-256
+- The source snapshot contains 613 source/documentation files plus its SHA-256
   publication manifest. Every manifest entry is checked against its file, and the
   staging check verifies ordinary files with no gitlinks or omitted files.
 - Cargo dependency resolution passes offline for the Windows host: 70 resolved
