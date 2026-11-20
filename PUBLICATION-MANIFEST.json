@@ -1,0 +1,3065 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "997dba2ec06eee47bdf682076351717d975f915960ab70f7ea3a3913671bc01f",
+      "bytes": 629
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "7fae432a20e7c86fea0987ca1c9218132dc01ed8e582a8e469a721806c3b38b3",
+      "bytes": 15533
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "e2054fcf8acf234d13a4ce31addb752e49f663f37869f2067d60b74f3463a105",
+      "bytes": 230
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "6b9cad06815dfa01df93ca74b386215b5b7e4c9e988e57745a190e612cf00ab6",
+      "bytes": 4152
+    },
+    {
+      "path": "docs/benchmark-results.json",
+      "sha256": "21eda29cee68e2da896e034a61030dc903c3091949a1434a11b168aa652c3afe",
+      "bytes": 5884
+    },
+    {
+      "path": "docs/benchmarks.md",
+      "sha256": "16887ab5b399bbd942c6074e7ba7c03edffbdef5bfdfc8396e7fadaee2231d3d",
+      "bytes": 5360
+    },
+    {
+      "path": "docs/cryptographic-design.md",
+      "sha256": "b6d1268c4504cd81e9887ed1067c8c28790e006d26b6f0658059fadd532d1c36",
+      "bytes": 7985
+    },
+    {
+      "path": "docs/device-test-results.json",
+      "sha256": "8b8a5969f32fe35a37f1ec7a914ece8eafc1455b5fdc116479fb4b93293acb29",
+      "bytes": 15952
+    },
+    {
+      "path": "docs/first-device-measurement.json",
+      "sha256": "912046635ae7992a4d800385f096254a4e25b93d9b2e88b9c170bd776a4f519e",
+      "bytes": 893
+    },
+    {
+      "path": "docs/hardware-compatibility.md",
+      "sha256": "e3bd96b882dc0b335ca83fd5be66903bc81dc537265e81e6edec5a7e71063eec",
+      "bytes": 2450
+    },
+    {
+      "path": "docs/host-test-results.txt",
+      "sha256": "3490d613be4a5688309e47e5eb1b91c938cfd4b752bb6d47f41da96f4b6b6181",
+      "bytes": 1765
+    },
+    {
+      "path": "docs/isolation-result.json",
+      "sha256": "f739917fc8b6fb888c8fca1578338184f334846458442032d264a29f0bbc9f23",
+      "bytes": 77
+    },
+    {
+      "path": "docs/original-files-sha256.json",
+      "sha256": "51550c8d49d99659105f665c824bdacdd03d5afe719c52c4c1bcbc0234240a05",
+      "bytes": 42699
+    },
+    {
+      "path": "docs/policy-lifecycle-results.json",
+      "sha256": "c95e90e14ef7efa496d4cc6f94ad817229c629fb1ffe7e9f8bae390f1cbcc534",
+      "bytes": 2121
+    },
+    {
+      "path": "docs/protocol.md",
+      "sha256": "cfab57d9a65f5cfea95b731fbbec1e04eef10eabc26e2e244ae0e893de8695fe",
+      "bytes": 2485
+    },
+    {
+      "path": "docs/publication-review.md",
+      "sha256": "a9894a1cfcdafe62046f342153ebe8a65eb944bf8dd6e6310c508adfbe830945",
+      "bytes": 4930
+    },
+    {
+      "path": "docs/third-party-notices.md",
+      "sha256": "d45bac0122185115fad466b900a252de1a485eb8df4636b80a19095925d86a02",
+      "bytes": 2304
+    },
+    {
+      "path": "docs/threat-model.md",
+      "sha256": "365eec7a0f85de55c30f4d84d659ce6a0dc5116809477be8b375993e3be3f838",
+      "bytes": 2127
+    },
+    {
+      "path": "firmware/CMakeLists.txt",
+      "sha256": "98480c9e4aa4d54b87abcf6663a4a051dd59477e20146c61a3480e9f738a0bdf",
+      "bytes": 227
+    },
+    {
+      "path": "firmware/components/esp_lcd_jd9853/CMakeLists.txt",
+      "sha256": "d283938a2a1d4f169856c99952b0927220c1b0717f7991550b600ffcbd9a3b8b",
+      "bytes": 139
+    },
+    {
+      "path": "firmware/components/esp_lcd_jd9853/esp_lcd_jd9853.c",
+      "sha256": "1150deee0a34e7f17da49b4dca1a64c3b2d2638656253aec120d6de971fc6791",
+      "bytes": 17782
+    },
+    {
+      "path": "firmware/components/esp_lcd_jd9853/include/esp_lcd_jd9853.h",
+      "sha256": "d67ecbb84b1d180117f3f38cc89acd92b8c3f6e9fd4c5dea76f944997e448cf9",
+      "bytes": 3887
+    },
+    {
+      "path": "firmware/components/esp_lcd_jd9853/SOURCE.md",
+      "sha256": "0d1c45cd699c5a215b878da63d36f77a304431e78cc72904879cd4e57c092474",
+      "bytes": 660
+    },
+    {
+      "path": "firmware/include/access_zk.h",
+      "sha256": "752707a82832f0bb4d011918fc199a1f21ed2f6ea28a86b22ad3d729134bd8c7",
+      "bytes": 280
+    },
+    {
+      "path": "firmware/include/display.h",
+      "sha256": "94148fe057565bab2e13a28671b2d28a324fe960305b985dfe6e0afb35d30e5a",
+      "bytes": 600
+    },
+    {
+      "path": "firmware/include/display_font.h",
+      "sha256": "704068d513538d549f8395217fc76bcbf1cad1545aeae5f6949f34ebdec3a954",
+      "bytes": 1136
+    },
+    {
+      "path": "firmware/include/touch.h",
+      "sha256": "6e22a632252cfa45669454383e66fc3b57a479200807b209bee14a352578255e",
+      "bytes": 106
+    },
+    {
+      "path": "firmware/lib/README.md",
+      "sha256": "5bb7513d136087b1b50cb3add999c04a83d22427a4a49b9140de4d8309b90566",
+      "bytes": 245
+    },
+    {
+      "path": "firmware/partitions.csv",
+      "sha256": "aff9f8209c9f2b785c98020fdde881e5d1828774b4d411ded3e281d28f566aec",
+      "bytes": 133
+    },
+    {
+      "path": "firmware/platformio.ini",
+      "sha256": "00758ff2a7db915b7f216e8b6bde86e6a4a024046c0f565ed3555915c7a1c535",
+      "bytes": 226
+    },
+    {
+      "path": "firmware/sdkconfig.defaults",
+      "sha256": "52206b5e1b14c8007d400c6926067aad7556481bec304938f1a65cb21fc94c98",
+      "bytes": 334
+    },
+    {
+      "path": "firmware/src/allocator.cpp",
+      "sha256": "43abee7f28505759b9a9df9ae7bca7d3d9a3033d7fab919fe624c94ceb60953a",
+      "bytes": 1205
+    },
+    {
+      "path": "firmware/src/CMakeLists.txt",
+      "sha256": "a5bfb492f5eb2aa604e085672b01e0726f7a46db9111003c6e40cd73d36b6160",
+      "bytes": 871
+    },
+    {
+      "path": "firmware/src/display.cpp",
+      "sha256": "d55d83e48a42dd45018b0165287e02b9f58d15a3c6c2f73c3beca304b088f014",
+      "bytes": 7370
+    },
+    {
+      "path": "firmware/src/main.cpp",
+      "sha256": "284f2e636fd3ba0d9a0afdcb36cf6e0458a809004df97e2da0805d74fe9251e1",
+      "bytes": 11864
+    },
+    {
+      "path": "firmware/src/touch.cpp",
+      "sha256": "74cdcf9d767265adccb489467fa527885a4bedade22ea8abc8eabf5f8d1cf297",
+      "bytes": 1836
+    },
+    {
+      "path": "prover/__init__.py",
+      "sha256": "430f84b289fc2333fe9411374571b8256ec72af879c2a51716d6285843f6aadf",
+      "bytes": 58
+    },
+    {
+      "path": "prover/requirements.txt",
+      "sha256": "913ea889553db741fd30073a5b2cfff3cc5f8b92f3ecad8036c1845424c1d2b7",
+      "bytes": 15
+    },
+    {
+      "path": "prover/transport.py",
+      "sha256": "4532400db2026711039ec98752bb89cb9caae542d245ccc62a196e2eca5727ae",
+      "bytes": 6181
+    },
+    {
+      "path": "prover/usb.py",
+      "sha256": "5711e8b12ee3be804a8ded78f07e2b1265961c7b20495cf7d7fa7f95f7892f42",
+      "bytes": 2561
+    },
+    {
+      "path": "README.md",
+      "sha256": "ab29a081392bae87376c17ad6686b1e2a33f4fc63bf2616da9eff1af9a3f47ba",
+      "bytes": 15508
+    },
+    {
+      "path": "scripts/adapt_zkmcu.py",
+      "sha256": "a3e0c613e51b7fea6e41a18afe3f4299616befa1535b60afab6cf09c9e311031",
+      "bytes": 4374
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "sha256": "27277944f274de4954789a48c609bf5fa769cdbf0dc34c64c9b642edee26c4db",
+      "bytes": 3022
+    },
+    {
+      "path": "scripts/cargo.ps1",
+      "sha256": "b556e26e04fd026c840ba6ab7ccf91ccf9faa4fbc58752d4576aa9da3482d614",
+      "bytes": 373
+    },
+    {
+      "path": "scripts/cargo.py",
+      "sha256": "fe7928e65f460005f7f4e5690f860445f1fbf72ee80cd30610a6dc922eceecc9",
+      "bytes": 395
+    },
+    {
+      "path": "scripts/cargo_xtensa.py",
+      "sha256": "35cb379cc52c7e2a50a63bb7ca07f424f78f609c549def7e2a44e78325d4f265",
+      "bytes": 952
+    },
+    {
+      "path": "scripts/check_isolation.py",
+      "sha256": "cab6022443c57463f1a60ea1354bbfefd516837ca6b45f49e18cd77e96ac9007",
+      "bytes": 756
+    },
+    {
+      "path": "scripts/download_xtensa.py",
+      "sha256": "633074ed190d52d47071dc7e484f0d8bad67604acc225c63f3d92c308fbf4bf2",
+      "bytes": 2117
+    },
+    {
+      "path": "scripts/export_public.py",
+      "sha256": "ff7954b6a23a3e7e650aea1152859deee6647afa35c36b5b9a5af90768b3eb2b",
+      "bytes": 4619
+    },
+    {
+      "path": "scripts/write_benchmark_report.py",
+      "sha256": "6a8a1651cc070161067f06f7b194172e82bf9c944da4012d3d81c62f54bc70dd",
+      "bytes": 6349
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "8f7e88b4e248a8164aaf3785a6836b3d6137153780184f628e7a2ba59d44348a",
+      "bytes": 68
+    },
+    {
+      "path": "tests/device_security.py",
+      "sha256": "376742271276742d47b00815b3416a79db33673dc704a9adf6fc505fb325bc18",
+      "bytes": 7537
+    },
+    {
+      "path": "tests/policy_lifecycle.py",
+      "sha256": "bd8394eb400d9af977e466baf3846a4e5c5fecbe72fd90ddb51d1ba1763d4fd1",
+      "bytes": 3543
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "6e6629708506a57c9d3c9760228ee0a856408648cde1fc3aeb196dc97a6da590",
+      "bytes": 1233
+    },
+    {
+      "path": "vendor/Plonky3/.github/dependabot.yml",
+      "sha256": "a103bd74b273df1e836a4d84b2b7df6e8fda26e325c781ee19f7e5b13979b895",
+      "bytes": 115
+    },
+    {
+      "path": "vendor/Plonky3/.github/workflows/ci.yml",
+      "sha256": "fd78efe7cd0eca6c76db814a3c99a2ec0687281205469de97ef0dda165cc2b40",
+      "bytes": 4766
+    },
+    {
+      "path": "vendor/Plonky3/.github/workflows/release-plz.yml",
+      "sha256": "7bdcedf9c34d1622861b56f523b05c99cb5d3fe50ccb7f02f6123d9a62659d79",
+      "bytes": 1104
+    },
+    {
+      "path": "vendor/Plonky3/.gitignore",
+      "sha256": "6714a6ce98ba69bda95902a9ecb05b6932d21f7f3cb4b1b4e0fc47117d2a0eab",
+      "bytes": 105
+    },
+    {
+      "path": "vendor/Plonky3/air/Cargo.toml",
+      "sha256": "51230fe0a1cfbf8d0e4d2adfab2e434102df44b4003f0dc93fb974590ca116b9",
+      "bytes": 571
+    },
+    {
+      "path": "vendor/Plonky3/air/CHANGELOG.md",
+      "sha256": "f0072615b97e1ee185b96bc95a2073d070d505ad20cbac050028634e56b47412",
+      "bytes": 3114
+    },
+    {
+      "path": "vendor/Plonky3/air/src/air.rs",
+      "sha256": "c74fbc9d4b5928fdc49c6e2d04b64e3a6b30bd9db3f9890e68ec5a05ae61cd4a",
+      "bytes": 8639
+    },
+    {
+      "path": "vendor/Plonky3/air/src/builder.rs",
+      "sha256": "4a3e49b649611884f2538edf8a246ff7b3b87519281d09940a7f4a8fa55480dd",
+      "bytes": 10575
+    },
+    {
+      "path": "vendor/Plonky3/air/src/check_constraints.rs",
+      "sha256": "414b6806cf678d049b8c03b76de083eed29a3d8eefc5b58b0dec8f973e83c5f4",
+      "bytes": 41852
+    },
+    {
+      "path": "vendor/Plonky3/air/src/filtered.rs",
+      "sha256": "2e6eccecada05bd53dd20ca05319838e28ae7ab56ff9fa25739cc84971c2dada",
+      "bytes": 3510
+    },
+    {
+      "path": "vendor/Plonky3/air/src/lib.rs",
+      "sha256": "d35407e8847dbafdde352f40681d385a174a5269686e34115f18204ba146cf2f",
+      "bytes": 417
+    },
+    {
+      "path": "vendor/Plonky3/air/src/named.rs",
+      "sha256": "07ee76abbcf69856a58b83de284b4a36097bcff3adbe04bbde4b69fa5209f7c6",
+      "bytes": 10453
+    },
+    {
+      "path": "vendor/Plonky3/air/src/symbolic/builder.rs",
+      "sha256": "bd91db49c9061545d75d6e1f4bc45550c97e58ecb733ba734dccc7ec178a7d5e",
+      "bytes": 37962
+    },
+    {
+      "path": "vendor/Plonky3/air/src/symbolic/expression.rs",
+      "sha256": "8bfc513aeb7fb19f48c426235ff5cb858722ca1ab908f29e324cce170ecbf4a9",
+      "bytes": 37358
+    },
+    {
+      "path": "vendor/Plonky3/air/src/symbolic/expression_ext.rs",
+      "sha256": "56933897d8b5480808c7a00bd1bc99870e0e7deaa9e47346261dafe9f05d1af8",
+      "bytes": 29493
+    },
+    {
+      "path": "vendor/Plonky3/air/src/symbolic/mod.rs",
+      "sha256": "2940970e9c016b757f1212c105ae352e491b27f30d968b99298cff9537476c00",
+      "bytes": 17082
+    },
+    {
+      "path": "vendor/Plonky3/air/src/symbolic/variable.rs",
+      "sha256": "f4491c3d564734926b532d9a8f0b7c0914eb0c58b46bab2f843498e4eb6dc19a",
+      "bytes": 5231
+    },
+    {
+      "path": "vendor/Plonky3/air/src/utils.rs",
+      "sha256": "78c7b6821bbad5e3fd1b2c149a334dbea6ac51b5b8826d42dbe3f77868861cf6",
+      "bytes": 13811
+    },
+    {
+      "path": "vendor/Plonky3/air/src/virtual_column.rs",
+      "sha256": "cf85226b07b708c200a6a618b2eb27fdfa87d07618814554bdacf5814776a5bf",
+      "bytes": 15008
+    },
+    {
+      "path": "vendor/Plonky3/air/src/window.rs",
+      "sha256": "f09001056db7adc3dabb23a1621f996ca3a4e83b20d7376decc86218652c5c73",
+      "bytes": 3015
+    },
+    {
+      "path": "vendor/Plonky3/audits/Least Authority- Polygon Plonky3 Updated Final Audit Report.pdf",
+      "sha256": "416aafc589c41faa46579f4834dfe604c6a538c410d309cf38d0a82d12aab59f",
+      "bytes": 284198
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/benches/bench_field.rs",
+      "sha256": "85571836f0cfec3f90cae604254e6e27ab2d660f28e046b0ec2889ad78cfcede",
+      "bytes": 3388
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/benches/extension.rs",
+      "sha256": "ba60c7330e915fd22abe97de3e76dd43909f032d51a5f75481ca731c216a063f",
+      "bytes": 2852
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/benches/packed_extension.rs",
+      "sha256": "8d376878f2574b58a4cbf827d4b8a5bdda5dd621be35b748fd69352e5796580d",
+      "bytes": 339
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/Cargo.toml",
+      "sha256": "70ae30db1a93d53388e396126ef68eeaec994b34762c7f3474de1b9a8245d76f",
+      "bytes": 1060
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/CHANGELOG.md",
+      "sha256": "d896760f8146323f7bd11a3b6fc553362b7c42867916b0ac954f9cfb55b5c457",
+      "bytes": 2715
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/aarch64_neon/mod.rs",
+      "sha256": "49de5e6619703c466b88e0c0a04997ff1f885c962618c99bfdb5422316bb38e5",
+      "bytes": 69
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/aarch64_neon/packing.rs",
+      "sha256": "b5b568fc31bcbd41ab0690fdac3dba30702cdda5b421e2ce674f609df4a976fa",
+      "bytes": 2491
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/aarch64_neon/poseidon1.rs",
+      "sha256": "06b222085103c7e10ccb452335a3468202f174ee260d35dc3204ca69fc343fa7",
+      "bytes": 2604
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/aarch64_neon/poseidon2.rs",
+      "sha256": "710db6770a34328661445bbc42411bfff23b10e8476816fd624855b72bcabbd1",
+      "bytes": 13341
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/baby_bear.rs",
+      "sha256": "ff9d3bfae677320f56b9dd37343358f379e96f4e9de24d817adeb1214aca8a5e",
+      "bytes": 8924
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/extension_test.rs",
+      "sha256": "754ac7f6183016e393e2d6326206eff1239074218f9bf93e848c75de67cbf85a",
+      "bytes": 6702
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/lib.rs",
+      "sha256": "44fafcc7daa1a2fde42932d4e8b46274d0b86a253017a649b007cd87732e65c3",
+      "bytes": 855
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/mds.rs",
+      "sha256": "3a821981cc7306b2d0dafeb888025439ade792aea176bba67ffd4c9bced61353",
+      "bytes": 9476
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/poseidon1.rs",
+      "sha256": "e0c152bb3509b20e00ef8a6a1d351264d2a9b1c3b5703943a7789a59b0d97187",
+      "bytes": 24133
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/poseidon2.rs",
+      "sha256": "8289d5eb8515864d57e966399bc5e4d931eaeb9e542cc170442e9a6e22cd126c",
+      "bytes": 32250
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx2/mod.rs",
+      "sha256": "49de5e6619703c466b88e0c0a04997ff1f885c962618c99bfdb5422316bb38e5",
+      "bytes": 69
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx2/packing.rs",
+      "sha256": "d1abbf60ef315b2d7ca71a5001eb6e846c7fe4e89b161bac1f615a301717fc92",
+      "bytes": 1202
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx2/poseidon1.rs",
+      "sha256": "bae7d836d51f18c1663ebe672d490e20fd0a5d935b5ecd819d9a474953941a72",
+      "bytes": 2604
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx2/poseidon2.rs",
+      "sha256": "c976a23d9c57333c151489f398dd11e273a7025ba3034bddd5e79ea07e3f1fa9",
+      "bytes": 11856
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx512/mod.rs",
+      "sha256": "49de5e6619703c466b88e0c0a04997ff1f885c962618c99bfdb5422316bb38e5",
+      "bytes": 69
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx512/packing.rs",
+      "sha256": "fbe0eae5854f51e5e350ff580557990f671ad7c9445c6710cf83c0c7358f52f4",
+      "bytes": 1328
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx512/poseidon1.rs",
+      "sha256": "f9b2e3d4ef5617339f792d84238b56adab97af0e49e7ff1588dc1df817a0d14d",
+      "bytes": 2620
+    },
+    {
+      "path": "vendor/Plonky3/baby-bear/src/x86_64_avx512/poseidon2.rs",
+      "sha256": "401e5b216a586935c46bec6e00132ff13bad6c5d6d74c3a413716898a7fee4c6",
+      "bytes": 12678
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/benches/prove_batch.rs",
+      "sha256": "d2635cf67396da88f4510d692dea717b7d81f31e237c12ab3b31a9367ce6ff21",
+      "bytes": 6246
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/Cargo.toml",
+      "sha256": "0cb1cd3e5f41b7033f2657f4421529a4fbad86192a374fab807f3446b6eeaa7f",
+      "bytes": 1363
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/CHANGELOG.md",
+      "sha256": "9e95a00809fadb6dfbbca6c108e0d1c3eb8c1c47cd7f0d0fc8956b25d9e0d1ee",
+      "bytes": 4174
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/check_constraints.rs",
+      "sha256": "5e98857620b2bb3f1e959d8e743c21313aebae99da157b21d83f41c3c7e8b651",
+      "bytes": 12022
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/common.rs",
+      "sha256": "9fa7b12b181ee4b8e40e573f1d8ab1dc05dfa28e461756913381a4266848d4b8",
+      "bytes": 9998
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/config.rs",
+      "sha256": "63b1206f02b48a6221b4bdca444643cd36a6443d3b97707dbd210c0e7ae6ce2a",
+      "bytes": 883
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/lib.rs",
+      "sha256": "f828ab66fec16d49b1479c4f5670234502323b99a529d028708b8a2b8c046a78",
+      "bytes": 1363
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/proof.rs",
+      "sha256": "03e6bda899b091ed18bdf2a739abc65c20c46bb71fe8055abd0dee8a998f0ff3",
+      "bytes": 2426
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/prover.rs",
+      "sha256": "836a3a42df2754f372347d80a0d1f2f9e450d6da6fe26bad542865c9176ef0ac",
+      "bytes": 38684
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/symbolic.rs",
+      "sha256": "2e0dee6f523d452d6d9fba2e80cd02ef0611fc14cacc2ce6006e226fc0769ba2",
+      "bytes": 5140
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/transcript.rs",
+      "sha256": "ef599ac62e26c5dcfc8853c31695706680cf71e4b587797bb3eb419e84a87657",
+      "bytes": 5073
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/verifier/data.rs",
+      "sha256": "781b4f51865314d0e4036aa1124cf187e2a5de74fa4be32cb316379eb175d803",
+      "bytes": 4697
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/src/verifier/mod.rs",
+      "sha256": "88d82cdcf312ed20de429e7e54a6f4f7ce99eee3bda43f499d47f13cff2a439d",
+      "bytes": 26334
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/tests/fixtures/batch_stark_circle_v1.postcard",
+      "sha256": "0d297a4a8b4236bc4a4ef192e4c71a318a602eb47cdea547cd4869167e451c01",
+      "bytes": 16092
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/tests/fixtures/batch_stark_two_adic_v1.postcard",
+      "sha256": "fc3464841b22dd3297be9a24af93251ddf38eab3d97a661f3d465e7de878c1e1",
+      "bytes": 5200
+    },
+    {
+      "path": "vendor/Plonky3/batch-stark/tests/simple.rs",
+      "sha256": "4bb3d1a6ecce2c4f937e133a16c440c827a922d0995fe6425b6229162a91c25a",
+      "bytes": 96065
+    },
+    {
+      "path": "vendor/Plonky3/blake3/Cargo.toml",
+      "sha256": "774d3da681686e48ea656ef475fc9d912674cc4c75ac65ea9c99bafec7bdb75f",
+      "bytes": 549
+    },
+    {
+      "path": "vendor/Plonky3/blake3/CHANGELOG.md",
+      "sha256": "e63781ef19488dcd00c80ced9a79849eaa580ef6b669a7e651576b372704b28a",
+      "bytes": 612
+    },
+    {
+      "path": "vendor/Plonky3/blake3/src/lib.rs",
+      "sha256": "8f7bfd11b9504dbb2471d81c93e7e8cdcb6e40ca5775dbd8032674ba1e30e705",
+      "bytes": 910
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/Cargo.toml",
+      "sha256": "eafd175f47a261f8a5c0e1536eee2206e28d12810cd52338e000944bb522d26f",
+      "bytes": 627
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/CHANGELOG.md",
+      "sha256": "4188351762b209c604e8504fa1dde2f77825150ddf5a0d509b34e3086556af28",
+      "bytes": 1140
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/src/air.rs",
+      "sha256": "5387cd494a3cf0d2a772f9998b3da8ed1d9c917eb1668c45c23fa1ea7100ed03",
+      "bytes": 17926
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/src/columns.rs",
+      "sha256": "333b95e8dfe5a0ded4e10a8ba7dab878819db49f644406ca2cf33540cc21b89f",
+      "bytes": 4083
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/src/constants.rs",
+      "sha256": "1f6f37fecbf2ae98c319a39d8bb467fca6d880c948aab168c9d6be0448da31f3",
+      "bytes": 1152
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/src/generation.rs",
+      "sha256": "8d1408d32ca7d2bf73d12b76a5b4e0ed37e4b4465ff08d6244c89975854e3ac0",
+      "bytes": 8761
+    },
+    {
+      "path": "vendor/Plonky3/blake3-air/src/lib.rs",
+      "sha256": "21d851ee4cf906b8276216c8e805c5eefe15532ac3e96476acd977b575efbb2d",
+      "bytes": 250
+    },
+    {
+      "path": "vendor/Plonky3/bn254/benches/bench_field.rs",
+      "sha256": "11da54a131dc38c72262a4255ff44465dec332712881f5d3ede44a63e8bdcd6e",
+      "bytes": 1096
+    },
+    {
+      "path": "vendor/Plonky3/bn254/Cargo.toml",
+      "sha256": "864bde5b68b66cbac790f94f356a7d191d0dceec1181be0cdbf965f5ecc6e0a2",
+      "bytes": 891
+    },
+    {
+      "path": "vendor/Plonky3/bn254/CHANGELOG.md",
+      "sha256": "bf8f3c7a840445a8f0afdf150055ec32dff2f2ce58bc98a38064e760d0590486",
+      "bytes": 1962
+    },
+    {
+      "path": "vendor/Plonky3/bn254/src/bn254.rs",
+      "sha256": "10259481e88073f6ede6c86705a27e1576e69256b0bcf4a5c085a8aba89ac86c",
+      "bytes": 25201
+    },
+    {
+      "path": "vendor/Plonky3/bn254/src/helpers.rs",
+      "sha256": "a8c4b9596af90ebc19900d629ed056f45910cb6fe9e8ff8350a134d90a397fb6",
+      "bytes": 22714
+    },
+    {
+      "path": "vendor/Plonky3/bn254/src/lib.rs",
+      "sha256": "dd16fce246f87cfd644df9f06462a64cd53b9860bb6094651369b4c1e4d03f76",
+      "bytes": 390
+    },
+    {
+      "path": "vendor/Plonky3/bn254/src/poseidon2.rs",
+      "sha256": "e44df823d932d0fb581ec4cf145a0cb387e6dbdf821a0afc23c564bb48452c41",
+      "bytes": 8208
+    },
+    {
+      "path": "vendor/Plonky3/Cargo.toml",
+      "sha256": "79f6a430a7d6d2449777405c210469e2cbb35115ae268335e7518907af70e831",
+      "bytes": 4982
+    },
+    {
+      "path": "vendor/Plonky3/challenger/Cargo.toml",
+      "sha256": "d844567edc19a79e9b18f8a6e6dd0d2f522c5d9b3ccb8ed91710ebc985d816ab",
+      "bytes": 675
+    },
+    {
+      "path": "vendor/Plonky3/challenger/CHANGELOG.md",
+      "sha256": "040987e1659fb66ed522e7afa523a438d2322070e8cdc0117182870aab34e729",
+      "bytes": 1712
+    },
+    {
+      "path": "vendor/Plonky3/challenger/src/duplex_challenger.rs",
+      "sha256": "63297a79873360d55e1a4bfb3723480ef23e3730087da6be05800ed064284d0b",
+      "bytes": 32641
+    },
+    {
+      "path": "vendor/Plonky3/challenger/src/grinding_challenger.rs",
+      "sha256": "2b8968af510f1597fe1871e459ced24b98407d5ae6efbb066f99f143c3a4bc62",
+      "bytes": 13876
+    },
+    {
+      "path": "vendor/Plonky3/challenger/src/hash_challenger.rs",
+      "sha256": "e7ae513318258367f233e134978b0bce054f3f7237aebdb55548a0f6d074832c",
+      "bytes": 14321
+    },
+    {
+      "path": "vendor/Plonky3/challenger/src/lib.rs",
+      "sha256": "57e9ca591924ab2806c677ddf7962483ea26856225587134aba84cb94281d324",
+      "bytes": 7791
+    },
+    {
+      "path": "vendor/Plonky3/challenger/src/multi_field_challenger.rs",
+      "sha256": "1269de0559d21467c978e521ba36be3736a7e6413741facadbe4d4f2f52585ef",
+      "bytes": 14418
+    },
+    {
+      "path": "vendor/Plonky3/challenger/src/serializing_challenger.rs",
+      "sha256": "76974bee5779a01d1263c2d9d6ee0ce8b0c7803d167d7477e6a90e7be992ec19",
+      "bytes": 16956
+    },
+    {
+      "path": "vendor/Plonky3/CHANGELOG.md",
+      "sha256": "8fe56bfaf97be848988e9f7637e43b14438689f6ba6685f732fa8950f9b09a07",
+      "bytes": 21805
+    },
+    {
+      "path": "vendor/Plonky3/circle/benches/cfft.rs",
+      "sha256": "65cce17c987a1494531593873792feb6fd3b053d05166e516b25370e521345be",
+      "bytes": 2591
+    },
+    {
+      "path": "vendor/Plonky3/circle/Cargo.toml",
+      "sha256": "252373b7799bdeb1ffe69211a528355ae276f02830b66877f8d70a9f6cf4e241",
+      "bytes": 1229
+    },
+    {
+      "path": "vendor/Plonky3/circle/CHANGELOG.md",
+      "sha256": "c1e017348306f40d080cca023ba20ea23c4a157d66af7e73c9eb7fa506cc0c7a",
+      "bytes": 1759
+    },
+    {
+      "path": "vendor/Plonky3/circle/examples/lde.rs",
+      "sha256": "c7924f6376aa66d2b104faf2392f4a8e11034188aa428e9983b40776431116d4",
+      "bytes": 1920
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/cfft.rs",
+      "sha256": "041e1051fbaa7c922c0ec7fcf667c98664b9fe4fa8c646046d378e46e86197f3",
+      "bytes": 14868
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/deep_quotient.rs",
+      "sha256": "2453adfe72a825405d4854dc255ef4a8fbf3da74173f8afa0fb5587b8ac44625",
+      "bytes": 14673
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/domain.rs",
+      "sha256": "bf56ee5059de3edfbcccc63f2d63ca3ebb308e79fd4c9dd2e4e2590bace16dc8",
+      "bytes": 17444
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/folding.rs",
+      "sha256": "fc95b4eeb3b67045ab646431ec07ea360e1e0ea01db7e7510c5ce841894da57e",
+      "bytes": 6723
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/lib.rs",
+      "sha256": "a4b1290ae1b665916adca11d48ff47126c8c7389d51aef44f649aed147e2acba",
+      "bytes": 485
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/ordering.rs",
+      "sha256": "af9e637f7dd7c713394379fb97ec3075b4c296410e1131749787513bca924f72",
+      "bytes": 3409
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/pcs.rs",
+      "sha256": "a942e5ed06eda01140a4d688309379011a3f828ff79af5395a95450d599464ed",
+      "bytes": 35944
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/periodic.rs",
+      "sha256": "dd18d74d539f41ca8b4751fa9beabd42dbaceee7a6c4c240197f144422beee29",
+      "bytes": 12846
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/point.rs",
+      "sha256": "463068f6218eef2e138baeb8314b2bed67ffd45ab70ddc2b349712d6bbefaec1",
+      "bytes": 8287
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/proof.rs",
+      "sha256": "6379cb4f0f2c6866ec83e4fed32e4f6b5c61a8f2e08c4d197ebb1d95d1ddce3e",
+      "bytes": 1594
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/prover.rs",
+      "sha256": "4930b147a55ff0f79750494379580e9c682310e3ceed8c92d4079748b0c4b9f5",
+      "bytes": 6764
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/twiddles.rs",
+      "sha256": "41a3b5e7cefd1ab5cd29afce5ee32c0ee07904a147d280637d633185578ad201",
+      "bytes": 2499
+    },
+    {
+      "path": "vendor/Plonky3/circle/src/verifier.rs",
+      "sha256": "03afd38ece33826883a4fdf567d836d2080c56a146606cab0ce5ca1ccdf824ec",
+      "bytes": 13851
+    },
+    {
+      "path": "vendor/Plonky3/cliff.toml",
+      "sha256": "27b4bb75ce4e3e3f33613062e36f3d75f0801a9b8ba40c3299a0e65f2e93e0fa",
+      "bytes": 1456
+    },
+    {
+      "path": "vendor/Plonky3/commit/Cargo.toml",
+      "sha256": "26a47cdccc318250b17128c7e0fa77b76f923fa2b728c5fd802e8a0452784061",
+      "bytes": 858
+    },
+    {
+      "path": "vendor/Plonky3/commit/CHANGELOG.md",
+      "sha256": "5289a444b31426a94f6985a06f9e00f7cbd5ab972a81aab41903e731d577a04f",
+      "bytes": 1297
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/adapters/extension_mmcs.rs",
+      "sha256": "9031af6f132474e2fe98afabeb02a2a3abf5dce73e4b035832e7148873d95360",
+      "bytes": 3229
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/adapters/mod.rs",
+      "sha256": "0a9bf859f9a6a68f30f3abf5a3d961d33741a7638d9364270f48736aa004beea",
+      "bytes": 127
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/domain.rs",
+      "sha256": "bf8673edb4089c57ff3408c25d8aa9bdead29b17c82f69316467a2d63d3fe79c",
+      "bytes": 15049
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/lib.rs",
+      "sha256": "dd54bb09948378a48654666929fb652c27ecd62f23d214c8cd5b2fda0ef0c4dd",
+      "bytes": 355
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/mmcs.rs",
+      "sha256": "6542f23f4984b8422b11a116dbcdd34006c2f0e33cd3c9853955b660e66b6b28",
+      "bytes": 8994
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/pcs/mod.rs",
+      "sha256": "18b21e1717d2a8caab9e2583812acc1121cdfa8a07eab79468c14c111267a1c1",
+      "bytes": 130
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/pcs/multilinear.rs",
+      "sha256": "2d3d7bf70cde5b6664909fd5a4d587de782992be0f078c7e526bdec30443f2d2",
+      "bytes": 3367
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/pcs/univariate.rs",
+      "sha256": "5f90e93af7e2c749c4060628931e80546f7e7b1e7ccba91102a2967cc7abe2c2",
+      "bytes": 15654
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/periodic.rs",
+      "sha256": "ef7d1ee89a0896cb107c808bd752bf2e3a5f76b37a2aa2517e6300c80439f737",
+      "bytes": 9438
+    },
+    {
+      "path": "vendor/Plonky3/commit/src/testing.rs",
+      "sha256": "701ad2e555273ab163b7ddcc4f4e8b15cc69af02f05fa2084aa9200b3bac0749",
+      "bytes": 7387
+    },
+    {
+      "path": "vendor/Plonky3/create_release.sh",
+      "sha256": "19e0da1bf7f5478804c3764d96da42d980f1349928f415ce97ec717f4cb0d936",
+      "bytes": 1310
+    },
+    {
+      "path": "vendor/Plonky3/dft/benches/fft.rs",
+      "sha256": "6070049cbfa9746ea5791d0e06121b3c9c9e089dfe0d3b9f725743fbbad5d6eb",
+      "bytes": 7619
+    },
+    {
+      "path": "vendor/Plonky3/dft/Cargo.toml",
+      "sha256": "61e589e8bf16b68a794d77b14cb7940d8d0f32195e5f7c10046fc448cdcb8ea6",
+      "bytes": 931
+    },
+    {
+      "path": "vendor/Plonky3/dft/CHANGELOG.md",
+      "sha256": "42e77f801d2a18a7fc0157b3ac407bb4e0a3177e0c266e128117ced2eff884d8",
+      "bytes": 1402
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/butterflies.rs",
+      "sha256": "277d693b8c6ac9aeba9b72005174790121a2c5e5d1ad25b29ee7426b9b0d181b",
+      "bytes": 13911
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/lib.rs",
+      "sha256": "99526e12850c74f3ca8dc89a297fded140c39e01f0a10e454131c1f6c869e63d",
+      "bytes": 440
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/naive.rs",
+      "sha256": "0c3be21811a82ee3325b6289bab5f6520504636ef753b94ce697d2adcb297cef",
+      "bytes": 2980
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/radix_2_bowers.rs",
+      "sha256": "5c9a234d2531d521ce743fa0d4ef704ef1faadb86f298f9ed4a4a054f74f15ba",
+      "bytes": 5084
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/radix_2_dit.rs",
+      "sha256": "3e4b2880148910f38d6773078d283455514e059ea8d154c96a9de5879902e366",
+      "bytes": 5445
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/radix_2_dit_parallel.rs",
+      "sha256": "16ee5da69e58c2d1c4186e8bc5e79b83d283bd898a0bc82f0465cb1a1e8054b0",
+      "bytes": 29536
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/radix_2_small_batch.rs",
+      "sha256": "26a5a65c9e03cd68ac406c123dddf43490f9ac62aa66b7e3f4549f0285428343",
+      "bytes": 41915
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/traits.rs",
+      "sha256": "d1cbd532dcc1de054b3e15df3364e2f5290b661a2550898dde9ab4391c2e8493",
+      "bytes": 22874
+    },
+    {
+      "path": "vendor/Plonky3/dft/src/util.rs",
+      "sha256": "e3338ac5b843bb702abfc09f3a45a5514e96811b6f474fca2c19d6fdadb5a256",
+      "bytes": 4446
+    },
+    {
+      "path": "vendor/Plonky3/dft/tests/testing.rs",
+      "sha256": "280ba723f1aefcf8ec899e71687604d6fe0e983deba332618d092e1ca99d10d0",
+      "bytes": 25828
+    },
+    {
+      "path": "vendor/Plonky3/examples/Cargo.toml",
+      "sha256": "97abd8d543fbeb47a81d53e0545077436ac9da13995c37dc3817c46ad06a97d3",
+      "bytes": 1458
+    },
+    {
+      "path": "vendor/Plonky3/examples/examples/prove_prime_field_31.rs",
+      "sha256": "3eaccf02e638e075ddd987ec83fa2aff0b364a0ac7779e717e6add0ab432cb19",
+      "bytes": 11829
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/airs.rs",
+      "sha256": "6691a87b7f779e55c2fbe68a277a9961731fc6d8ec3b4064328692e8f969d244",
+      "bytes": 8219
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/dfts.rs",
+      "sha256": "fa0d19c73723a63f7454884e6fee10c4616cdc32d07d97751bb8cb8dd409c2d7",
+      "bytes": 7408
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/lib.rs",
+      "sha256": "2596a14330e1252d67d51889a8d3df527f97ae27d743cb9098f9e563d5ed79e2",
+      "bytes": 109
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/parsers.rs",
+      "sha256": "c0decb111fdb0fa73537127ffaf31a760568ddd3356dea5e4225d8b871f027b8",
+      "bytes": 5221
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/proofs.rs",
+      "sha256": "8f9759ea7abaf1e63bb4a2ee333b3b49f68fca7a909be7cce21fef1fd119503f",
+      "bytes": 9458
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/tests.rs",
+      "sha256": "c6d8149d5c1b2233a63dc29f1339a7668e69f265028f6d77918b75e3aee10733",
+      "bytes": 9644
+    },
+    {
+      "path": "vendor/Plonky3/examples/src/types.rs",
+      "sha256": "2d6e934e328e3ef905654eea4d467a60466e2aa11bdf3761b9e572aa1d2e81b1",
+      "bytes": 2752
+    },
+    {
+      "path": "vendor/Plonky3/field/benches/batch_inverse.rs",
+      "sha256": "ac5e40372719cf0badda990110b5c5f83a61826da94d27e1d7a5e6393df122f0",
+      "bytes": 2758
+    },
+    {
+      "path": "vendor/Plonky3/field/Cargo.toml",
+      "sha256": "8db2f2db27f376f96b002cb4fe11ed52827143c2a2c94efdf4c891aefbc7c78e",
+      "bytes": 900
+    },
+    {
+      "path": "vendor/Plonky3/field/CHANGELOG.md",
+      "sha256": "cfc4fef91e10e128edf3a2c85e2a70daa59a4618d93a050f8ea3ff78734684df",
+      "bytes": 3631
+    },
+    {
+      "path": "vendor/Plonky3/field/src/array.rs",
+      "sha256": "509fb924204dc9756b5f1dd31ea7c65b16485fba84d6bb5d21451a70b0acffc6",
+      "bytes": 8799
+    },
+    {
+      "path": "vendor/Plonky3/field/src/batch_inverse.rs",
+      "sha256": "275fb5c0101f714f76547d10ba4132aa6bca8704d5ebdc0207d4978bc828745d",
+      "bytes": 5539
+    },
+    {
+      "path": "vendor/Plonky3/field/src/coset.rs",
+      "sha256": "352a36eccaed2c13789ea5839da881f564971557cc42ac1ad38c650218da8063",
+      "bytes": 8880
+    },
+    {
+      "path": "vendor/Plonky3/field/src/dup.rs",
+      "sha256": "ba2c06ccd5d71604722c1b15b1dcf4f4bd92601ad331b03508418900a4e9806a",
+      "bytes": 713
+    },
+    {
+      "path": "vendor/Plonky3/field/src/exponentiation.rs",
+      "sha256": "011d13f333e9492e8f9bb6d56a23428f8a6ac7b678d4c9fba5cd600507820e40",
+      "bytes": 6668
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/binomial_extension.rs",
+      "sha256": "216ce03dd97e2080ec3cbd56bff7a711fc379acf216e5965e02dd59f0b0038e5",
+      "bytes": 42281
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/complex.rs",
+      "sha256": "2f223142710f46fdb57d41d46473cdecbcdb937ab5ec24b55f07407a25fab1cc",
+      "bytes": 4166
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/cubic_extension.rs",
+      "sha256": "fafb13f8d28d4b086536f4cc274eda4dcad897c47dbaf10f91e2d5afbf2af752",
+      "bytes": 18110
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/mod.rs",
+      "sha256": "544eb6d9c20a509d9387f80d9be76e99d72a35bad0cfb199a00ad1036b8b2a41",
+      "bytes": 10967
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/packed_binomial_extension.rs",
+      "sha256": "ed2c69b2ccc1080b987f2bb238fa3e63de189e21f17b3ea3633af696b66ad6dd",
+      "bytes": 15541
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/packed_cubic_extension.rs",
+      "sha256": "f90cbac2f2a52c998fd56785332d77589871d431745194830b9b4aab8ef92b6c",
+      "bytes": 14602
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/packed_quintic_extension.rs",
+      "sha256": "99ceda85145719a94b0f0c71ff4c96f0d9e3f47980674e76aa063feefa3e18c8",
+      "bytes": 14857
+    },
+    {
+      "path": "vendor/Plonky3/field/src/extension/quintic_extension.rs",
+      "sha256": "98cd22206b8aeeccd9b0d08e7eea2d2b065231e1c35d882008edb061dee52c84",
+      "bytes": 21677
+    },
+    {
+      "path": "vendor/Plonky3/field/src/field.rs",
+      "sha256": "4aeae74c7a18dc2dfa7d3b8fc7fff1a4bd87f69348b527b184f0555aa2b69e48",
+      "bytes": 51635
+    },
+    {
+      "path": "vendor/Plonky3/field/src/helpers.rs",
+      "sha256": "a7641f4cd1b3220557b18451f34966cc49d3ef18b1b1243beca57e150938ddf8",
+      "bytes": 5809
+    },
+    {
+      "path": "vendor/Plonky3/field/src/integers.rs",
+      "sha256": "2789fea3503158eab8bbfc2dc99bbf547956affbc96bddaa393704e7f066ba54",
+      "bytes": 27746
+    },
+    {
+      "path": "vendor/Plonky3/field/src/lib.rs",
+      "sha256": "1bb17a5cdac5ad9e4d47a65d6c3b811b2cec9775238ccbfb91c8e454216191e9",
+      "bytes": 388
+    },
+    {
+      "path": "vendor/Plonky3/field/src/op_assign_macros.rs",
+      "sha256": "1069375658da6005ab5ed8d287edf516f34ec789c14c198d12dbef602b12a042",
+      "bytes": 14235
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/aarch64_neon.rs",
+      "sha256": "78aac14decb71e6d7ee9073336a7ae9cbad497ce2ecb690f34c5750d67171976",
+      "bytes": 13121
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/interleaves.rs",
+      "sha256": "5395d3d36a4d72b22574fef1079bbb464a9948b1b533f3fd15e6e222205ec4c5",
+      "bytes": 16782
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/mod.rs",
+      "sha256": "57a19b24229239ca379de8cd529e22ab4db45ccfdbd050f8ee651fafe77abb7b",
+      "bytes": 887
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/no_packing.rs",
+      "sha256": "6daa8f00ac46b70b01637ea99be822c85498de80bb77364b4676f97597aac276",
+      "bytes": 1935
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/packed_traits.rs",
+      "sha256": "b3850231d5edd57ea8508156ae051183f00a655fd841e2d35233b66ac7300bc3",
+      "bytes": 21253
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/tests_packed_mod.rs",
+      "sha256": "bbca74a7bee9e17ea8e9d1b8da9d729dbe47c8c16b00e55615c29d8bb9d17a94",
+      "bytes": 7003
+    },
+    {
+      "path": "vendor/Plonky3/field/src/packed/x86_64_avx.rs",
+      "sha256": "d416b6dab922d447bed02c89a5b35bfa61236bb2e92021b61f435a507988feab",
+      "bytes": 18355
+    },
+    {
+      "path": "vendor/Plonky3/field/tests/coset_tests.rs",
+      "sha256": "e60f99b153d4a7b49ffcd41244a3d91d999cfcb6081f0ada69a2d8eebd5150c8",
+      "bytes": 5104
+    },
+    {
+      "path": "vendor/Plonky3/field/tests/helpers_test.rs",
+      "sha256": "73c5d49226d50d123e8b3db5bf5c6315565b6b92016d7133e59cd63b3ef24027",
+      "bytes": 13718
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/Cargo.toml",
+      "sha256": "f2f0e580cc1d030f8d51c77ee36ee7ae7b580647aa765d1f7ab7b2534bc91c6a",
+      "bytes": 663
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/CHANGELOG.md",
+      "sha256": "4bc5ed6a84f5c56e82413a1b0b3225be0ad05869a58be4851a4d7b8ef490565a",
+      "bytes": 1890
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/src/bench_func.rs",
+      "sha256": "e175e8a1c5f151514e97fd22b5abf36a2a245b8fef84e7d845651c43faf70237",
+      "bytes": 26027
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/src/dft_testing.rs",
+      "sha256": "bed398e82b5393fc2f8fc4d41eb668809642834d879aa65bf85e7b7b52cd47eb",
+      "bytes": 13305
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/src/extension_testing.rs",
+      "sha256": "329b0cbc08b4a55b9baffc922245f94bff73fea6e2cda01fdc60dd1e5691757d",
+      "bytes": 6448
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/src/from_integer_tests.rs",
+      "sha256": "e5ef18866b26ddc75df60a8b1a18c46e8518b555f6f121d2b69ea6094bdfe8fb",
+      "bytes": 5391
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/src/lib.rs",
+      "sha256": "b79b6d83c39ac3e16657d08fc69e5889e271d957183ebce674a2c611e05f84b4",
+      "bytes": 47366
+    },
+    {
+      "path": "vendor/Plonky3/field-testing/src/packedfield_testing.rs",
+      "sha256": "d8f14600252770ddb588d66042c127c809c273843fb9e5d197729b133d7aba7e",
+      "bytes": 38479
+    },
+    {
+      "path": "vendor/Plonky3/fri/benches/fold_even_odd.rs",
+      "sha256": "e18634ab39cd3677cc84e534937973a81e781d0e6375399a30b723544b117806",
+      "bytes": 1869
+    },
+    {
+      "path": "vendor/Plonky3/fri/Cargo.toml",
+      "sha256": "70aa24f32e3bb512a8c681c6a6772bb9667afa2919efad08ccb6123aad0d6a70",
+      "bytes": 1199
+    },
+    {
+      "path": "vendor/Plonky3/fri/CHANGELOG.md",
+      "sha256": "ff68a1481b3ea1015eabf4b7c06006dd8d8bb53d08125f3accf2172711857fbe",
+      "bytes": 2335
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/config.rs",
+      "sha256": "6cb5fe7ba2f93e72a9a61cbe358241993f88d33df6957550bed8513b30ad7731",
+      "bytes": 6333
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/hiding_pcs.rs",
+      "sha256": "0f25d462c58ab1c67d6dac9353ac661ab4d145933554c6a2c1ad10b956439a50",
+      "bytes": 18900
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/lib.rs",
+      "sha256": "8b8dc8ab0dc193f7159ef8963ef5c87c01c2d9e39afad6422501d60578bf18c9",
+      "bytes": 321
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/periodic.rs",
+      "sha256": "ba2caaab3226a7131a8f3ca76d961d7e7b7200317dfd6e5ec0cdab1de3450741",
+      "bytes": 9560
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/proof.rs",
+      "sha256": "f0d7fbd9550bfd86e9ef2cd304ee0f88dd099e6100d2b9b37caf5c0774735b44",
+      "bytes": 1492
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/prover.rs",
+      "sha256": "42f020815e9d376babb841f51c0394f6c372347cd1fdfe5a8a3ca480f27f988b",
+      "bytes": 17015
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/two_adic_pcs.rs",
+      "sha256": "af6af4b6044eef2efb855a44f0573e6301468903b33e9a2da5b1cd9b32400c7c",
+      "bytes": 36402
+    },
+    {
+      "path": "vendor/Plonky3/fri/src/verifier.rs",
+      "sha256": "98818df8196d4cbb8dd806d6d23bbca6f2ab8b2dfd67a189b5704b1d32c56655",
+      "bytes": 60889
+    },
+    {
+      "path": "vendor/Plonky3/fri/tests/fri.rs",
+      "sha256": "8153f2af0f35f525b1712ddcf8350423d536a6a902e345abf1da6059da845e1b",
+      "bytes": 7713
+    },
+    {
+      "path": "vendor/Plonky3/fri/tests/pcs.rs",
+      "sha256": "eac2997194ca116a8281f2aa53bf7e3871840965cd49e0e415410b036e9deddb",
+      "bytes": 10678
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/benches/bench_field.rs",
+      "sha256": "92f04b6783d89803ff3923a0b7b3d2afcc7fc858de9e9e0c7099b9d8b917ea21",
+      "bytes": 4531
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/benches/extension.rs",
+      "sha256": "5c0bb2de31e551bcdcb1b8c1a04d0519b677ff45f176ceba2bfa12d81a4734b3",
+      "bytes": 1402
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/Cargo.toml",
+      "sha256": "2f22fa918c7661975b83cfbd0e18e5998bb1af089a6d1c0cfc28ec239875b398",
+      "bytes": 982
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/CHANGELOG.md",
+      "sha256": "7570c1653c984c1a0c384f73d6487ea1d76f703f06dc20a3856a48023e8f08df",
+      "bytes": 2709
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/mds.rs",
+      "sha256": "45c553dfbf2fcd9f8260f55584161081d5a0e13a6091190f50e165afae2b42dc",
+      "bytes": 11101
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/mod.rs",
+      "sha256": "6dee72ff7303c3a80942490b1d0b38404a17e7f776d8af1436e4ce667d62a3a0",
+      "bytes": 295
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/packing.rs",
+      "sha256": "b4a87507d4dd3b13259a6b7c62b56b0c298be992b0fd578c862fae78a178b8bb",
+      "bytes": 11275
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/poseidon1.rs",
+      "sha256": "84299f42c0d200dcb594fff9189659af0edc6587f2e8f3ab01c9f9814b373548",
+      "bytes": 26124
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/poseidon1_asm.rs",
+      "sha256": "366b62e32bc0453bac00d60ddab6908b5bcdefdcf042841ade44157835144097",
+      "bytes": 38357
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/poseidon2.rs",
+      "sha256": "5aca6dcd643add4dfa637e532b42face98f89ae7ea50d0657f531b0b0e4b22b0",
+      "bytes": 26113
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/poseidon2_asm.rs",
+      "sha256": "fc6eb0452ba132b35b3ec3ebe62cf89ba1ebe647863c6cb2a4ab0a0558e3357b",
+      "bytes": 106865
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/aarch64_neon/utils.rs",
+      "sha256": "e5b29aa18b8f9e2909ceb553e03dff9d0505ab245c525169af5d3788add3ebdb",
+      "bytes": 19939
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/extension.rs",
+      "sha256": "5415ca03c64fd973d4cd04c87e63a9eb1f10a2b412e3729e2c3a03775791e261",
+      "bytes": 9430
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/goldilocks.rs",
+      "sha256": "e8d77189372eb088a9c0947af398cd6cac24fa8c6e531a5867b8c051a5b34cd4",
+      "bytes": 29316
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/lib.rs",
+      "sha256": "5caf08c56b2ba91754be6b21f15818035cf04e70d794f30d35b6c89a55292a4b",
+      "bytes": 843
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/mds.rs",
+      "sha256": "1cea761c4f123233f107303715583582b4d10f588e07c98b41e104d31bf39f0f",
+      "bytes": 27844
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/poseidon1.rs",
+      "sha256": "ae843eb493617f02787cda88e7162cc2a0429fc4b1eb5ef0794964006956a8e4",
+      "bytes": 36511
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/poseidon2.rs",
+      "sha256": "950fd5aa5cc14dbb5ded74e108141d8fbda4d591a9e9a1875989a650f97bb9bf",
+      "bytes": 39045
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/x86_64_avx2/mds.rs",
+      "sha256": "8d7f7a9c545c26a7082f24d0f48d52764a006571c85a06f165cd184b7cbc1682",
+      "bytes": 3166
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/x86_64_avx2/mod.rs",
+      "sha256": "b8f23490bb5f7db8c4704bb5026b421df72574620d6103afdf96b05475ea88ed",
+      "bytes": 45
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/x86_64_avx2/packing.rs",
+      "sha256": "b12f42de98b65417d6859449860f9e9740f648d97a455dc9bc0099c55a725b30",
+      "bytes": 22885
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/x86_64_avx512/mds.rs",
+      "sha256": "6a79874826e10352074b9dbb4dea104df129b8695e0e57427877937a93dc709a",
+      "bytes": 3228
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/x86_64_avx512/mod.rs",
+      "sha256": "b8f23490bb5f7db8c4704bb5026b421df72574620d6103afdf96b05475ea88ed",
+      "bytes": 45
+    },
+    {
+      "path": "vendor/Plonky3/goldilocks/src/x86_64_avx512/packing.rs",
+      "sha256": "10078b2ce7a7a3ffa71f1b082ee74e0d36b4a00cb1ed3fbec4828c22d18b761a",
+      "bytes": 16793
+    },
+    {
+      "path": "vendor/Plonky3/keccak/benches/bench_keccak.rs",
+      "sha256": "74fd493e73b53f2dd3623b97879797f02240f434fc26eea878c5407af3e9e8d0",
+      "bytes": 3090
+    },
+    {
+      "path": "vendor/Plonky3/keccak/Cargo.toml",
+      "sha256": "ad639160b0f75b93b4daa9da6b959b867cde5f7dd0c52754ce0a0e9791725375",
+      "bytes": 835
+    },
+    {
+      "path": "vendor/Plonky3/keccak/CHANGELOG.md",
+      "sha256": "0ae6ec33cf4029d0858a660dcb5e22f4e34688fbb2b6568e74652ce067f3b4c2",
+      "bytes": 964
+    },
+    {
+      "path": "vendor/Plonky3/keccak/src/avx2.rs",
+      "sha256": "e41d623a8176e6abe6fc97032ec275d8618d5c2130cedb0d44984b4a129e43a9",
+      "bytes": 14737
+    },
+    {
+      "path": "vendor/Plonky3/keccak/src/avx512.rs",
+      "sha256": "31c0ccc75ac832d8ffacf4d24e151da1f560776250f95b0491628a522c87d0e4",
+      "bytes": 20427
+    },
+    {
+      "path": "vendor/Plonky3/keccak/src/fallback.rs",
+      "sha256": "b6980fab68143db581bd1391739a650165e949326ea455fa309566befa0b20d1",
+      "bytes": 645
+    },
+    {
+      "path": "vendor/Plonky3/keccak/src/lib.rs",
+      "sha256": "7945d44458f184020b62fc44a4693e43400e68e7f9a08c9b0fc9c9ac7e12d04f",
+      "bytes": 3230
+    },
+    {
+      "path": "vendor/Plonky3/keccak/src/neon.rs",
+      "sha256": "e50edeb9d7e50164c9232a4f50418ae6b39e2b8446fea52e897d96746582ffc8",
+      "bytes": 9439
+    },
+    {
+      "path": "vendor/Plonky3/keccak/src/sse2.rs",
+      "sha256": "2552aa3a0bc3cce60097a99d52eb19b36d0ef404409fc3ff6198b1563f5e3584",
+      "bytes": 12862
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/Cargo.toml",
+      "sha256": "514d55a5cc6f192685903d21d478dbc3f1b816229d9a6bca1d9fa139af0e3fcf",
+      "bytes": 1365
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/CHANGELOG.md",
+      "sha256": "5eff914ededec75672f8e129ae59ea46c56d1ab1604dfcb9847a56b5c7e88b28",
+      "bytes": 1294
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/examples/prove_baby_bear_sha256.rs",
+      "sha256": "7d5a4770fcbec4798cb98b901a599f6275bcde075bddeb113ae1ae3288634ec8",
+      "bytes": 2666
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/examples/prove_baby_bear_sha256_compress.rs",
+      "sha256": "9db09f439708a980ae60c6cfa4a6b49764053e8711cce4392467166adb276adb",
+      "bytes": 2601
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/examples/prove_goldilocks_keccak.rs",
+      "sha256": "27eeb03585e641da721c2865b5594a15f995b31684790a03e7bd12f75e780ee2",
+      "bytes": 2851
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/examples/prove_goldilocks_poseidon2.rs",
+      "sha256": "b1fa1722771c45bace92fbd96c2789ed6760d40ec9a708c899cf51c8bc759869",
+      "bytes": 2603
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/examples/prove_goldilocks_sha256.rs",
+      "sha256": "1d24b5f8cdbc72c0d310eaadc2a5f3edbe618ac5a2796127a7ce627ca076971e",
+      "bytes": 2595
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/examples/prove_m31_sha256.rs",
+      "sha256": "bdd184ae5cb66bdba162e5db4f60e5c07e7cbf6eadb774c9e57f6f476a51a9d9",
+      "bytes": 2576
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/src/air.rs",
+      "sha256": "3c45f25b08088116b3977ecf1cd375430377f0a57d33cfb0043c681e36696977",
+      "bytes": 15520
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/src/columns.rs",
+      "sha256": "6bd1266420bc1c11de542231dc8643be097302b36e41b3671bb3e2e3f7815ce7",
+      "bytes": 4767
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/src/constants.rs",
+      "sha256": "f0002cefa6bd3957d457c0cc4eac52d49a7eb886f6cab73f8481c7e668231651",
+      "bytes": 7998
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/src/generation.rs",
+      "sha256": "5138715c05e322b9a000c20901d8286b82befdb93ca792b4d73a128941f6d160",
+      "bytes": 15760
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/src/lib.rs",
+      "sha256": "3640075696d0e5725f8d26f177e5b203ec86d9f096b3ade8ac4ba0b8c1d36780",
+      "bytes": 1088
+    },
+    {
+      "path": "vendor/Plonky3/keccak-air/src/round_flags.rs",
+      "sha256": "9b73fdc694e4a374931a8bcdfeabf4a8cbccfa61890fd8855cafbd12a77daf3e",
+      "bytes": 1870
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/benches/bench_field.rs",
+      "sha256": "5eaa0b2f485aa3cf76123dd5ea045d9484e1943f43628ee4b763513c1695d231",
+      "bytes": 2978
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/benches/extension.rs",
+      "sha256": "1e29b2a982cc31b7f81f6cfddb20d8aef9a9c95383b0a9d8f4f27217967c3633",
+      "bytes": 2132
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/Cargo.toml",
+      "sha256": "680505638299473e4368beaa689c8f64d3c9dada1bcc17bb75e36ac15f018de9",
+      "bytes": 1005
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/CHANGELOG.md",
+      "sha256": "b3adf682cf67f6e64ce8fa1a562ceb995a76e2f6b8c8648fe5f24d7d7bdd0584",
+      "bytes": 2247
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/aarch64_neon/mod.rs",
+      "sha256": "49de5e6619703c466b88e0c0a04997ff1f885c962618c99bfdb5422316bb38e5",
+      "bytes": 69
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/aarch64_neon/packing.rs",
+      "sha256": "e61d8c6a0533cb0744743b6a46c6cc679771543fbc9ec8758a18549c9ec5ea43",
+      "bytes": 2367
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/aarch64_neon/poseidon1.rs",
+      "sha256": "8c1de968b8460225fc719909cb080c2f2fe2572c6d891db332a891fcd1a6d67e",
+      "bytes": 2619
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/aarch64_neon/poseidon2.rs",
+      "sha256": "1f9ba24dc278b5257457472e800ba281285b231e56c697025b3f44f476c68750",
+      "bytes": 12989
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/extension_test.rs",
+      "sha256": "43e506908a766233646f1927e3d71f51aa8fa83df253f7e59b4b5348248b590f",
+      "bytes": 7129
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/koala_bear.rs",
+      "sha256": "690b1f31e1fb125ce366d538cac4a8cb326d92d5744a0b834c73b56cb1b553b3",
+      "bytes": 8485
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/lib.rs",
+      "sha256": "8a989f481355d505f39f40f24f8da1555f5733ada2b1f06b49d0d3188b96a3d6",
+      "bytes": 857
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/mds.rs",
+      "sha256": "404c26fb56ab07eefb0b09b66195f44f11954fbeab91300a8e69f730471caf29",
+      "bytes": 5025
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/poseidon1.rs",
+      "sha256": "527c845949d8fd2270003b4ca35d79307b55ecbb93f97afe243539f2c0d5de32",
+      "bytes": 26648
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/poseidon2.rs",
+      "sha256": "75ac32bc93651c9602e523705e73d28523d979a54db3ff3667ef9b8b0106037b",
+      "bytes": 33375
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx2/mod.rs",
+      "sha256": "49de5e6619703c466b88e0c0a04997ff1f885c962618c99bfdb5422316bb38e5",
+      "bytes": 69
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx2/packing.rs",
+      "sha256": "7a4917ca0f13e3db73acd14cff73489b4114cb2be4ec412785494075610f60b6",
+      "bytes": 1214
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx2/poseidon1.rs",
+      "sha256": "d55062383c442d752a8dd73dc2cb8228df577b72008f5df2d63346840fe03a1e",
+      "bytes": 2619
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx2/poseidon2.rs",
+      "sha256": "9fb6b9ee31ddf054763d21ed85264016327363a3da4d3bcda12cea336c0d418b",
+      "bytes": 18166
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx512/mod.rs",
+      "sha256": "49de5e6619703c466b88e0c0a04997ff1f885c962618c99bfdb5422316bb38e5",
+      "bytes": 69
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx512/packing.rs",
+      "sha256": "7d60cf753c1d1f8d364654c75d004f1241ec4b01468ee3a8091a2b968fb52ded",
+      "bytes": 1340
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx512/poseidon1.rs",
+      "sha256": "2c68e0bb1f8600e4a42bd456fcf00fbb7d5d08bcba1b0ad7ed97cfaee695afba",
+      "bytes": 2635
+    },
+    {
+      "path": "vendor/Plonky3/koala-bear/src/x86_64_avx512/poseidon2.rs",
+      "sha256": "966d61cc4ca8124eda64bb4860b20992d9cfa2c67b879faeecc662230bb0f0fd",
+      "bytes": 15007
+    },
+    {
+      "path": "vendor/Plonky3/LICENSE-APACHE",
+      "sha256": "60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3",
+      "bytes": 11050
+    },
+    {
+      "path": "vendor/Plonky3/LICENSE-MIT",
+      "sha256": "b611b0e61bf902c27f2a906861a56b3fa1f0788ec881975437b4d93c86a1be82",
+      "bytes": 1107
+    },
+    {
+      "path": "vendor/Plonky3/lookup/benches/logup.rs",
+      "sha256": "99d84acbcc6e6dc667947089d2901b00b16d47087fc18cd886e7fc930f5ea5e6",
+      "bytes": 6027
+    },
+    {
+      "path": "vendor/Plonky3/lookup/Cargo.toml",
+      "sha256": "7a36e0b731c126d14e1a3f66b4d54690d2cf1df15ee977073900d2f5bc21f423",
+      "bytes": 1161
+    },
+    {
+      "path": "vendor/Plonky3/lookup/CHANGELOG.md",
+      "sha256": "ad4131fd7b1ec95f963d12b969aa4a7ce8cb5a67b37f20df45e262fbcb1e8412",
+      "bytes": 2694
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/builder.rs",
+      "sha256": "2d84156d47b95247732a5b6c60aee6d45a44cf0420d49b673cd8beae844441f2",
+      "bytes": 4179
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/bus.rs",
+      "sha256": "93fd083d8b42dcd00399035941670105f1c08afcba920b6fc8a86f9390924c40",
+      "bytes": 7843
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/debug_util.rs",
+      "sha256": "e19073ef0a6d113c0d6062d321c0f9036325ab5ad1076c1487b77ccd4cfb85f3",
+      "bytes": 9781
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/folder.rs",
+      "sha256": "6230bb02e091e1d4ae04f74efc9126e06dea3cd1fc467163e85d7765787e62e8",
+      "bytes": 7345
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/lib.rs",
+      "sha256": "bbeb1d1f8261bafeaf5f8ebb3170ddc05b1bf0d85573db70440985a87152c956",
+      "bytes": 619
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/logup.rs",
+      "sha256": "927218df213b4664c420b6138517f76fbe2cc13e92ed578f6e1c160e1dc6b056",
+      "bytes": 27315
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/protocol.rs",
+      "sha256": "2513af9bd2b9618b30d8b746a634a4b5cb139789928431bab320d1afc68d2ade",
+      "bytes": 3111
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/symbolic.rs",
+      "sha256": "a1e0a68d860a7c47c6af0d56828da32a3877eba17930f65a4e85525d4ef7cae3",
+      "bytes": 6223
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/tests.rs",
+      "sha256": "80c90d5edab54b3fe71b4df3def96dc0404855978f8878dfb136681460ec92f0",
+      "bytes": 49112
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/traits.rs",
+      "sha256": "b6d941b6c438674ad247c14fa4ccab4b46b3736ff44e67aa475d187155f691d9",
+      "bytes": 4782
+    },
+    {
+      "path": "vendor/Plonky3/lookup/src/types.rs",
+      "sha256": "ec05065e13011c2b8e61947db23cc24cdf7b10924d83e65b303334a2497860eb",
+      "bytes": 3805
+    },
+    {
+      "path": "vendor/Plonky3/matrix/benches/columnwise_dot_product.rs",
+      "sha256": "99a181ae29ec178c76d6eed3c193cd71d7fffdfaaddbb60db175c9ad238b50fd",
+      "bytes": 5739
+    },
+    {
+      "path": "vendor/Plonky3/matrix/benches/interpolation.rs",
+      "sha256": "62cdee7417234a58548197ac6dad4d998763fe1b7e2eb498804041d7692af285",
+      "bytes": 3389
+    },
+    {
+      "path": "vendor/Plonky3/matrix/benches/transpose_benchmark.rs",
+      "sha256": "3a6bc4a158d4439ea5ccb5d2720b4ef8d007ae1946425ceb67f74c1e2610d8e5",
+      "bytes": 1766
+    },
+    {
+      "path": "vendor/Plonky3/matrix/Cargo.toml",
+      "sha256": "6310ca3e8ca103d17f97b067856929128c70801f60d1afe6e64a4fede37713a9",
+      "bytes": 1101
+    },
+    {
+      "path": "vendor/Plonky3/matrix/CHANGELOG.md",
+      "sha256": "d055bd4a54876193390e5db215653f666b2d91b41506626a2261ded984ac0ce7",
+      "bytes": 1840
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/bitrev.rs",
+      "sha256": "c6911a3b69083791af893fed1489da56462d017c7a8d4263b95161bfac53b907",
+      "bytes": 6003
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/dense.rs",
+      "sha256": "9d7e510f7a668df58496fd0117073db4f63bcbcb45b81ef8a7fd56d027b469a0",
+      "bytes": 71472
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/extension.rs",
+      "sha256": "3935d9159e83fd5fb198d2e1f29ec1504eb2b279d5246b473f5f6c64552d54ab",
+      "bytes": 13086
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/horizontally_truncated.rs",
+      "sha256": "2ba7e8cb2704f56f98c2a5e958f16bd4c52fe854bf2b14e4106ed4b1e5657319",
+      "bytes": 14785
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/interpolation.rs",
+      "sha256": "93eb888a3a658eeddf6a211feb708c4edf416bf123917ffbf4d2d703f10ef4ef",
+      "bytes": 50915
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/lib.rs",
+      "sha256": "21e1bc3f82aaa2f319c3611cf9ba9f62ed55a442137975e53950d723abe7a799",
+      "bytes": 31052
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/row_index_mapped.rs",
+      "sha256": "df6107faf0c03879d09204a4efff044d976fe237f541e09ec3dca472364a1460",
+      "bytes": 14082
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/stack.rs",
+      "sha256": "880f639eb49bb7abaa7e281fe182b53849b4e8fd956704ed9dd680af77334006",
+      "bytes": 13325
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/strided.rs",
+      "sha256": "c6627e411079e305a0b8f3a7e204b2590f4e7d3a5d2aa5e5ec85f3855a4c6c94",
+      "bytes": 5982
+    },
+    {
+      "path": "vendor/Plonky3/matrix/src/util.rs",
+      "sha256": "e666d9b361319477157477a80f7ce9bfe0b071900948ff81573f8906dea694f1",
+      "bytes": 6934
+    },
+    {
+      "path": "vendor/Plonky3/maybe-rayon/Cargo.toml",
+      "sha256": "b6a7c7f307116ebb32e1e514ae54d0341d2dbfeb5cadfae1faa16d3199886c41",
+      "bytes": 408
+    },
+    {
+      "path": "vendor/Plonky3/maybe-rayon/CHANGELOG.md",
+      "sha256": "b2dcf84baf8af7bb7cb9ac57a0a9f2995c01ee9f404f4de145b8980e19e09c8b",
+      "bytes": 1005
+    },
+    {
+      "path": "vendor/Plonky3/maybe-rayon/src/lib.rs",
+      "sha256": "b6c1cf6e6636568e82bbfc10348be7223685fc15a6d68bd719fca4fd7f9571a4",
+      "bytes": 3103
+    },
+    {
+      "path": "vendor/Plonky3/maybe-rayon/src/serial.rs",
+      "sha256": "677f3e9b2fd7a5d9f0c75328836e0e18c8b5b77d76e9e80f177bd2cec3255a81",
+      "bytes": 5809
+    },
+    {
+      "path": "vendor/Plonky3/mds/benches/mds.rs",
+      "sha256": "052e7162f84af6e313f4db47c1a88fdfe5f2b7dca1b1c4952e84a5bbe914e4d6",
+      "bytes": 2328
+    },
+    {
+      "path": "vendor/Plonky3/mds/Cargo.toml",
+      "sha256": "6a26c4696a50bd18425fb830071c7710207ca16ea42451c7ed6d15465102d582",
+      "bytes": 745
+    },
+    {
+      "path": "vendor/Plonky3/mds/CHANGELOG.md",
+      "sha256": "2d2866c8304d87e112c7139128fd663b470c6bc7855e2d74bd5320d7793fccb0",
+      "bytes": 1278
+    },
+    {
+      "path": "vendor/Plonky3/mds/src/butterflies.rs",
+      "sha256": "ffea25a011e4f008bccb2b19653ed1b362014de8280e1c7b5afcb56b1917a6e3",
+      "bytes": 18807
+    },
+    {
+      "path": "vendor/Plonky3/mds/src/coset_mds.rs",
+      "sha256": "98d82157cac6b5f802d5a1c509e68ad1f14bfe89cda21cf4e6b1332a0357ffd0",
+      "bytes": 8897
+    },
+    {
+      "path": "vendor/Plonky3/mds/src/integrated_coset_mds.rs",
+      "sha256": "36c70bcac6b7b7bf7a0f0dc06d29fac471028ac35c5c87fbe4d88283a5a6f8eb",
+      "bytes": 8905
+    },
+    {
+      "path": "vendor/Plonky3/mds/src/karatsuba_convolution.rs",
+      "sha256": "2b5b7c79c0a52cb34198d7291051fb6abd8534af03820a045aee41d71059bded",
+      "bytes": 22541
+    },
+    {
+      "path": "vendor/Plonky3/mds/src/lib.rs",
+      "sha256": "453ef07e9417af2452e0254d52c6c0948e896e93a137e6b65ed4ae86721e1e1b",
+      "bytes": 931
+    },
+    {
+      "path": "vendor/Plonky3/mds/src/util.rs",
+      "sha256": "20bf4811b71ec5993069c6182db1c11a20e44c348af7e2e724cf9c319eaa207e",
+      "bytes": 7941
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/benches/merkle_tree.rs",
+      "sha256": "8db045df53907b2afd3325bcddebfd83921ddfb2f55dad82a48bf3023a9a0278",
+      "bytes": 6674
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/Cargo.toml",
+      "sha256": "cc225b454da714cb78368ea56c6e4a7b87c8ce5c9a245eba7424e0593d963be9",
+      "bytes": 1030
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/CHANGELOG.md",
+      "sha256": "eec12ccb3e2d9313a35353d8c1586cf1381deec75d2c1959d5be3e8ec152ddc9",
+      "bytes": 1591
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/src/hiding_mmcs.rs",
+      "sha256": "10d48e26658cdb2fac8e5fb9c380764a9998e24ec07b15b610c1e5ee7bb2fce7",
+      "bytes": 8411
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/src/lib.rs",
+      "sha256": "1169ebdc8e17fb19d368e29871b255d7e7c34f5a321098086ecdbece288c17cf",
+      "bytes": 314
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/src/merkle_tree.rs",
+      "sha256": "b34a2090dd42430c3b52691288333aff83dcebef8fe5cc1e59330623a40da910",
+      "bytes": 25833
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/src/mmcs.rs",
+      "sha256": "e3936abe8ec7a90841cee3b2ffd071b3410ea77e2d603b5ede06520c35588dd5",
+      "bytes": 92194
+    },
+    {
+      "path": "vendor/Plonky3/merkle-tree/src/pruning.rs",
+      "sha256": "8ff8b4baa425a89a05abc67ccbbe7382035c86a4dfc9b9f830a9e8d8db849097",
+      "bytes": 40448
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/benches/bench_field.rs",
+      "sha256": "70fde020d2d9bf770ac273763bd9c4adffcbe6dc3d703790de40f7a4fe698cdd",
+      "bytes": 2367
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/benches/extension.rs",
+      "sha256": "b1d6d4222e741c0d7788aa77547523eb20d8e6caeac4d2d375551f8b9d88714f",
+      "bytes": 1306
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/Cargo.toml",
+      "sha256": "d5d7cf2f4bea47da2c99879787a50138d037b871c09f593aa4e0ef9297305e0f",
+      "bytes": 1040
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/CHANGELOG.md",
+      "sha256": "15f5a261f9a28216f8458389cf7f3e555859d5c41ea24c770023e0398c4988f8",
+      "bytes": 2847
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/aarch64_neon/mds.rs",
+      "sha256": "2fc54a9c29071f13de43606681e03983d66d1371b43d48556862a8c154178b90",
+      "bytes": 4619
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/aarch64_neon/mod.rs",
+      "sha256": "e2a627e056a14d9050f1417817c20f0db399f0ea10fe0e820371327a9fa5e51d",
+      "bytes": 137
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/aarch64_neon/packing.rs",
+      "sha256": "4f15228cb23de39b3c1b8004069c3ea3bf754a2fb52d70722b5ef6a32aa23cbd",
+      "bytes": 14423
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/aarch64_neon/poseidon1.rs",
+      "sha256": "6942d0dcdc78a84b7fddafcbeecc5296e2065248c516b52669e35c84c7fac219",
+      "bytes": 10327
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/aarch64_neon/poseidon2.rs",
+      "sha256": "e6e6e946c2ec0f3519a3a1004563b4d471b75817a31fcd4dba77c6d511cf6fc0",
+      "bytes": 17426
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/aarch64_neon/utils.rs",
+      "sha256": "e6c37bbc1ae5727a8af50a40c9f5b768936612ba6b619a5b58f229f776d46b5b",
+      "bytes": 2914
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/complex.rs",
+      "sha256": "24f3ee1fee40fa007b4c843484d8f93f5f18b4455d53b3a349052e66e597027d",
+      "bytes": 6659
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/dft.rs",
+      "sha256": "da1038105423884d19173b69946a550e089e13b7160ddec6891b6252b122e81e",
+      "bytes": 9437
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/extension.rs",
+      "sha256": "bd99b87f17ac5ef512092c39bf573661538587e2f237cc8d19c130c3e97a547c",
+      "bytes": 9308
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/lib.rs",
+      "sha256": "8d603a52f52fcc630e8e81e545699dbdc56568249728b43269afef166d1281e2",
+      "bytes": 1325
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/mds.rs",
+      "sha256": "ba135124926f53e8f3c56cc6b1847037466b9052945dc7f875ecc408c0ae57a5",
+      "bytes": 15341
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/mersenne_31.rs",
+      "sha256": "bb896d48c69fa4cda71bd42fd271b8a370efc5dadc67f4d7159f14f4335b9f5c",
+      "bytes": 24434
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/no_packing/mod.rs",
+      "sha256": "61ebcd445427dc91b5886e10c446c4d5fd768af852a2b3c3c8f243787900fcd4",
+      "bytes": 164
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/no_packing/poseidon2.rs",
+      "sha256": "9c9a022574d73342ff74da465eaf0511735d4e4baf96c7ec63f82941d0c20754",
+      "bytes": 1268
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/poseidon1.rs",
+      "sha256": "3d18d0814fcc8107e63309e97155fe8db8aee0efc3b49fddf9d12c10f238ab80",
+      "bytes": 32834
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/poseidon2.rs",
+      "sha256": "fc3b2cfce3872bdf4b9d8bdb59794db5db403650d54ed4c69b7ab678d74fb590",
+      "bytes": 30290
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/radix_2_dit.rs",
+      "sha256": "8ee8a039913c25f69571f00bd774adc0561d7ec5508dd4b72a2cca07bf4a8445",
+      "bytes": 5506
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx2/mds.rs",
+      "sha256": "8e381f57c5ffcc9a5be0dcd64319702d4dfebf1a0ca998b399409455885ac873",
+      "bytes": 4592
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx2/mod.rs",
+      "sha256": "e2a627e056a14d9050f1417817c20f0db399f0ea10fe0e820371327a9fa5e51d",
+      "bytes": 137
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx2/packing.rs",
+      "sha256": "716bfcdc30705341ba765468ae50aec9dd6d33753ec99e5ac1c6a513c0aec277",
+      "bytes": 17344
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx2/poseidon1.rs",
+      "sha256": "3c37941846095296db35f2b64bb02b74b8e6ded62b8c5bccf3ab42e0a6c77400",
+      "bytes": 10946
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx2/poseidon2.rs",
+      "sha256": "b24e58e379bc471bfa0e17e9feed3c41b73124553ca7d6e03a335616379adc4a",
+      "bytes": 18471
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx2/utils.rs",
+      "sha256": "aa28368efbfd711679af94f89fe30aebe1859a27efe7800708fcf1deca57e9a3",
+      "bytes": 2385
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx512/mds.rs",
+      "sha256": "917cf40c5d32b8fcb2a03fabc138c2d570b5fa333afed1559dd2a9e38caa5629",
+      "bytes": 4677
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx512/mod.rs",
+      "sha256": "a87937f8058d9c06cf40d8bea7f11e16a74a08d3c64551fb6ee7ae8c6fdcc664",
+      "bytes": 144
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx512/packing.rs",
+      "sha256": "9182919739cf2d82a77cc484d5227187b6ba1cb90dfd45f6d5ddfa5f1421d258",
+      "bytes": 18384
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx512/poseidon1.rs",
+      "sha256": "bf2a90559441be756b95d145941ba9e3f767e981217d12b97a2452759b8eaae0",
+      "bytes": 11040
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx512/poseidon2.rs",
+      "sha256": "ee87100ad9967f1fd1ec7b0c28f40bb980824eed4c93d589b09bd2ff645cee7b",
+      "bytes": 16722
+    },
+    {
+      "path": "vendor/Plonky3/mersenne-31/src/x86_64_avx512/utils.rs",
+      "sha256": "c4d52e85e6004b3d8e803769623b99c76aaa23be605fef2f09ef81ad45b5fce0",
+      "bytes": 2439
+    },
+    {
+      "path": "vendor/Plonky3/monolith/benches/monolith.rs",
+      "sha256": "26f02d09ab384681f49491dadd6ca6eb130596c4a6fcd1f550ffc331e711c7de",
+      "bytes": 2262
+    },
+    {
+      "path": "vendor/Plonky3/monolith/Cargo.toml",
+      "sha256": "2147d66a4d206eed3f9355bb882622bdfb2dd8017ed7d173278b17893b7216ea",
+      "bytes": 641
+    },
+    {
+      "path": "vendor/Plonky3/monolith/CHANGELOG.md",
+      "sha256": "15bae7dbd581cc7a295e04ccc2e33a2484ff344e346d00a52a893857b8e79ef8",
+      "bytes": 1039
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/bars/goldilocks.rs",
+      "sha256": "73982ea3e1ef17ab524764285ed24126b8d04d0e335c67c0684673bbb0e4ed73",
+      "bytes": 9149
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/bars/mersenne31.rs",
+      "sha256": "2efd3b3db7a45f0aa08d5060436288512bb87b02599f5316793ae1f7f698f78c",
+      "bytes": 6216
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/bars/mod.rs",
+      "sha256": "c1bde5d3de5d55bd88c2b8216051cf575c07d272eff8dde0bc0a0f7d45542866",
+      "bytes": 2395
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/lib.rs",
+      "sha256": "df82dca57c93913b105e684dd837f0883e1aee6704eff85823bb8fbe569b0a19",
+      "bytes": 1016
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/mds/goldilocks.rs",
+      "sha256": "ce28e0407c29a595edf04919a5650343616ca0444206a7ae73f57425a8612cbf",
+      "bytes": 1447
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/mds/mersenne31.rs",
+      "sha256": "4d41381143707baec1a0434f73c85e6849cdec621b66905a4243cfc3198d430d",
+      "bytes": 5666
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/mds/mod.rs",
+      "sha256": "24d45af361b1a5ba7ab9831ce0ef238aabcec2bd99dd9080d0a0afdd9938921c",
+      "bytes": 100
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/monolith.rs",
+      "sha256": "1c7687bbe3a9fc2c7bc6a49d4a1dc9efcf1e30a9361cd8518108d9556e94fdc5",
+      "bytes": 14873
+    },
+    {
+      "path": "vendor/Plonky3/monolith/src/util.rs",
+      "sha256": "cf95eddd7d983d424c52f7faea40245ee07af5db0fa58aaca3f6109ccf09e484",
+      "bytes": 605
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/Cargo.toml",
+      "sha256": "b82b640a70f579887bb09dda5b4188471cb598ad0a9a4a9a89728ccfbf559be3",
+      "bytes": 900
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/CHANGELOG.md",
+      "sha256": "3c9d717de2774756d14a5db4941092551308cd1f2d5f77dab80f3f043cfd1a55",
+      "bytes": 4124
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/aarch64_neon/mod.rs",
+      "sha256": "071335339378695a00add875aedce75ca8a5efeaebce9060ebe3109f07221a62",
+      "bytes": 146
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/aarch64_neon/packing.rs",
+      "sha256": "7d5af4aba12c09c5926ecddcdb2c93d7e37cde3cd9ada22f20401ca0277963fc",
+      "bytes": 56347
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/aarch64_neon/poseidon1.rs",
+      "sha256": "e4a973b16d46f583a1e7bc549bc133548f2f3238a057e3a42e74f61f181394c0",
+      "bytes": 11868
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/aarch64_neon/poseidon2.rs",
+      "sha256": "55c7ce8a9ef524752d5e62bb95ebd83b96ef3f7d37d6d19d243dbb52d387866d",
+      "bytes": 28871
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/aarch64_neon/utils.rs",
+      "sha256": "cef2150fa9f109b16b90fa0090d182efdc7bcf1a609a1f87a7683224a081631c",
+      "bytes": 4366
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/data_traits.rs",
+      "sha256": "d4337e3a356ae69a3eb7bc870e03f3c31f253a31e12cc803995194e55305bb23",
+      "bytes": 6916
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/dft/backward.rs",
+      "sha256": "bcb4f5b991d6a7405c9baddeb6ad2af66f60557dde7d9d3b2376cde2a92ac660",
+      "bytes": 10669
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/dft/forward.rs",
+      "sha256": "82d2a751208e6ec8ca9dffcb7270dfe8247b6abea7efa3ade84c48207b43e564",
+      "bytes": 16229
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/dft/mod.rs",
+      "sha256": "21349ecf8560cecbeae91a211282c017c18a7bdc519d43393b3cc5b898570a19",
+      "bytes": 12306
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/extension.rs",
+      "sha256": "2e506f6c3af1d2dfa12d219eb6c648739b2e27e02d7487625943b89757cd7604",
+      "bytes": 4787
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/lib.rs",
+      "sha256": "f78085f098a01222429ac09f71b0b84271d25db6ef2ae5c386d0750f3a4671aa",
+      "bytes": 1214
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/mds.rs",
+      "sha256": "834beab420bbdee5aa69f84bb1d5b1fb57824801571a49073789a51969ad2e75",
+      "bytes": 13575
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/monty_31.rs",
+      "sha256": "9b70a3ee66d78c34e5341303641b2c62c1ea708da2826b75b2878b05d878ca3e",
+      "bytes": 28969
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/no_packing/mod.rs",
+      "sha256": "0e7750718c1f73dc26a797ae445f10df38769a7b2c73c1d0fc27f8c15202cafa",
+      "bytes": 2248
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/no_packing/poseidon1.rs",
+      "sha256": "0ee39fb37be257d5a3c1be1e8c3f1dbe00309bdaea3032e81e92e419ee1251e8",
+      "bytes": 1981
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/no_packing/poseidon2.rs",
+      "sha256": "4dca2cb284263459f9f91f2ea8a0447bdc95a5ebe52dd43fbf46c58a801d918c",
+      "bytes": 1807
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/poseidon1.rs",
+      "sha256": "f57599f4ac8f25ae621ad27d0257e327a02d3730269c227be7be8c39c31c0aab",
+      "bytes": 5511
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/poseidon2.rs",
+      "sha256": "3fd98db6120fdef7e5d205e354492386f0c8bc014e06a2e80dd4b53e397133dd",
+      "bytes": 5406
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/utils.rs",
+      "sha256": "695bd69d158fe38f5ff5c72d9d8d6071457cb4ab78c2cceaaf969a7ee03ca558",
+      "bytes": 20623
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx2/mod.rs",
+      "sha256": "071335339378695a00add875aedce75ca8a5efeaebce9060ebe3109f07221a62",
+      "bytes": 146
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx2/packing.rs",
+      "sha256": "8c24477e094ab042715f0bbb6226b5aee1240710c532da6d33c4165f9a80f330",
+      "bytes": 54122
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx2/poseidon1.rs",
+      "sha256": "9352b6276de62a197696554d81527cf8f11b0999993c44960c008939513b78f6",
+      "bytes": 11823
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx2/poseidon2.rs",
+      "sha256": "b5425504c8df4a6a04e15af2e4e111d4c8f69d9421caff254dbdac7434fff608",
+      "bytes": 27036
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx2/utils.rs",
+      "sha256": "bfa8dff6d342efc06f311d089a0fd84fff72a3dee9e544f7b535d8cf7e277165",
+      "bytes": 15299
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx512/mod.rs",
+      "sha256": "071335339378695a00add875aedce75ca8a5efeaebce9060ebe3109f07221a62",
+      "bytes": 146
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx512/packing.rs",
+      "sha256": "7724f7f8a513a4e2c480edd2e776c9597b173695305ddc2626071db7b82c6d27",
+      "bytes": 71005
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx512/poseidon1.rs",
+      "sha256": "bcd3e5f4b7fc0e2aba0ec22a5b7125badb547133b5f0e71842b540748f6b3225",
+      "bytes": 11001
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx512/poseidon2.rs",
+      "sha256": "128bd9a7f8ff61a9096a3187378ecb9fa5eff41f40a2d7f0066a59c9e5bdcf86",
+      "bytes": 27181
+    },
+    {
+      "path": "vendor/Plonky3/monty-31/src/x86_64_avx512/utils.rs",
+      "sha256": "fb86475eb2112c692c3aae6f4c2645d11641af7dc5de5eacd713d89d1b16671f",
+      "bytes": 10173
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/benches/compress_kernels.rs",
+      "sha256": "c2a284727cf6316876f5e97feb2a479759bc79e4699dc2701363f1f5c1ce7a90",
+      "bytes": 7001
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/benches/evaleq_batched.rs",
+      "sha256": "5251d2d9bd477f52f15d99a562e64f9960536091792200d269070b5c421f21bc",
+      "bytes": 5359
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/Cargo.toml",
+      "sha256": "c91218d6c122dbfd347e07bca5efb9b0c1926aa71f8d77e32b386b3b38b08ecc",
+      "bytes": 909
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/CHANGELOG.md",
+      "sha256": "e63a5d829372c5afe130a7d190ef34bb413bea97cbc55a9f8a8bc6454478f384",
+      "bytes": 1068
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/eq_batch.rs",
+      "sha256": "0f318dd17020ceec4a8b3e7d9373e543a6716bbaa5f85587ebf549d1918aa2fa",
+      "bytes": 52489
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/lib.rs",
+      "sha256": "e6743a32e5b0ce36712b35a82229a6627d6dc04d3443f4355920ba0b9335e84f",
+      "bytes": 106
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/point.rs",
+      "sha256": "d3584b9dbe393b72e07fbf38dbd166cffb5b2b4378d26838ad5b6fbfed354536",
+      "bytes": 20953
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/poly.rs",
+      "sha256": "92de64523f3b96de6feee75ab68ffe82d646e067f14c5433be47b43d0ee4b1a5",
+      "bytes": 70719
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/split_eq/eq.rs",
+      "sha256": "e335c49afaf205ba9aed264929239b853f927112d490a85cee53c01f68752d1d",
+      "bytes": 29208
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/split_eq/mod.rs",
+      "sha256": "8c6252af1ab5d3a49007a2b4554dc6ea4c880bb65eca51b575426d2b346462d4",
+      "bytes": 29454
+    },
+    {
+      "path": "vendor/Plonky3/multilinear-util/src/split_eq/packed_kernel.rs",
+      "sha256": "a8c3065a41fc614f693b80e54dd557b5c6092b4360b68011c8348aed0d255fad",
+      "bytes": 34400
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/benches/poseidon1.rs",
+      "sha256": "e2e6d892f85a4452f1e714d47657573d422d4dda0b1678533a60088038dd859b",
+      "bytes": 4327
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/Cargo.toml",
+      "sha256": "4716f7a008ee8f2b4befe07a425e435f74d28d82dea3b76e0f6ce72c93ee65be",
+      "bytes": 773
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/CHANGELOG.md",
+      "sha256": "1488f7fd74e9869cad5f10f5422956ba4c4d5867f84a6d65b8ee4458c6deab83",
+      "bytes": 825
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/generate_constants.py",
+      "sha256": "48dfde3b32f7067c6462f64add41d2e606e9c689747d8fca1574cb9936cbd4ce",
+      "bytes": 45632
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/src/external.rs",
+      "sha256": "8a4970126b62bc7a8e63aaebba9b19a21474829c52b9ae1d879a8f17faec795f",
+      "bytes": 6071
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/src/generic.rs",
+      "sha256": "30c2ca336665f59f2402023be71b6b09b53c713667bb80550138f543ebc06e78",
+      "bytes": 6653
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/src/internal.rs",
+      "sha256": "4e68dbc4749eac4942a5c8d71af40cfa82837780108a228bd440674ba521d52c",
+      "bytes": 9685
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/src/lib.rs",
+      "sha256": "6bb1219e2198cda644250e2e123a19659ab67c2eedcc842e47f358edf1db5d86",
+      "bytes": 14939
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1/src/utils.rs",
+      "sha256": "753e8315f50ddca4cd7f7fd43832d70660055e5226affacab0a6b559bb834462",
+      "bytes": 21831
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/benches/poseidon1-air.rs",
+      "sha256": "8301b93fc82401f83b0195e80e6d25f4686a331291f15d14707699347a102237",
+      "bytes": 11812
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/Cargo.toml",
+      "sha256": "46591241dcf67f8c9dc379364076576f01d9cb2e8e819d2577f229075ffccd8f",
+      "bytes": 1437
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/CHANGELOG.md",
+      "sha256": "eae8cbe8237545725799dc9d558958af0e2994844efca157e54cfbd6c84e6102",
+      "bytes": 418
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/examples/prove_poseidon1_baby_bear_keccak.rs",
+      "sha256": "fd08ddc1b1b8e81777c6498217aab8bff82377e9cbd64b4594f51aa6c19e6f58",
+      "bytes": 5240
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/src/air.rs",
+      "sha256": "9b4495ce70fd04bd0c90a8e4736787f0010241b6320440062e309873105f6e18",
+      "bytes": 17014
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/src/columns.rs",
+      "sha256": "47a1a6f66675788cd76f67957fd2fee2bb8b9c617b15a9fcee16acfdbc465950",
+      "bytes": 10265
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/src/generation.rs",
+      "sha256": "5e6c2abca2165180d0bee1674c31a8716646b7ef6000c7dc4fa2a8b2b4dd37d9",
+      "bytes": 16844
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/src/lib.rs",
+      "sha256": "73d9742f090f0fd8c8dd9000753a961c97bc80ed5fadc18ec007b83bf55e3b65",
+      "bytes": 11152
+    },
+    {
+      "path": "vendor/Plonky3/poseidon1-air/src/vectorized.rs",
+      "sha256": "cc80d8e2f2b1b704e97250cde10159eb73b16c62e1fab15266d0a04d5f5330a9",
+      "bytes": 8907
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/benches/poseidon2.rs",
+      "sha256": "29c9e7e562b52f16eab3a9c133f2a5ff5e2bfe038892a206a41ae3ab86557bf9",
+      "bytes": 2856
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/Cargo.toml",
+      "sha256": "1da79a7631fa316e06a83a2e632f1694a9b7aeb4e6828af7d1aff54b6f37d550",
+      "bytes": 828
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/CHANGELOG.md",
+      "sha256": "a568976d30636c2374615fd92a73bdbc247d0d133105160df29fd870de2ff4d0",
+      "bytes": 1473
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/generate_constants.py",
+      "sha256": "f11c8b9880d849bb3911274443667d339805d36d26891af45d5c16125a9b1c75",
+      "bytes": 48358
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/src/external.rs",
+      "sha256": "4e1e5acb98699dbb3944b287cc6152c5a7c0be7f0b2bf79343ff72f9b1110944",
+      "bytes": 15024
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/src/generic.rs",
+      "sha256": "774051e3269bffe610344b2d285e13eeb398690444a35044ddb5255036e36a1f",
+      "bytes": 1728
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/src/internal.rs",
+      "sha256": "e10db09781bf0e36bd770ea72e00c0fe5ac36e29eb9e2c88afe4f563ec452946",
+      "bytes": 3307
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/src/lib.rs",
+      "sha256": "a4a3d292b1afb36570495496301e86c8c16cc347ffb1349f39720492dccccb67",
+      "bytes": 5694
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2/src/round_numbers.rs",
+      "sha256": "77aaddd1b4f847e8426ade57a7f413215907d965024a20076be532ceb32c6a00",
+      "bytes": 4828
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/Cargo.toml",
+      "sha256": "153c2c445173faf2d37d02079c089141b94a995fd6277b797cc72ceb90b6343d",
+      "bytes": 1300
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/CHANGELOG.md",
+      "sha256": "e72c9212ba5cfc045885356f03327cededc0248586b2906a2007e63698d56dce",
+      "bytes": 1855
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/examples/prove_poseidon2_baby_bear_keccak_zk.rs",
+      "sha256": "d41b6b59837e960bb1f0c581cce3482c964768f50953a603f9ad93a6d20ef522",
+      "bytes": 3926
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/examples/prove_poseidon2_koala_bear_keccak.rs",
+      "sha256": "d6324384a547f212c63148aeda8988b51f3ec1488c1053025a9c27a6c6b467d8",
+      "bytes": 4120
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/src/air.rs",
+      "sha256": "493788cd53bd0f74ae5107a2a8554686f74083d6a651ea81cda9a050308a6341",
+      "bytes": 8976
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/src/columns.rs",
+      "sha256": "f3095e31da4f3c8cbca40e010af0eddbd7267d21ce3b26546c1e61d989ea0911",
+      "bytes": 4961
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/src/constants.rs",
+      "sha256": "eaf79e235ecafa17cee4b86188a87ba9beb0f7a741d09b24155b01db35482b0f",
+      "bytes": 1672
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/src/generation.rs",
+      "sha256": "155ab6a373d592441cd403be93943a1f666bca3d92d564c013f1ea9832183d7b",
+      "bytes": 8717
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/src/lib.rs",
+      "sha256": "b620c3c1b2414051fb9f6178fc6e62eda6b99a3af144ce492e9596b4ed1d574f",
+      "bytes": 268
+    },
+    {
+      "path": "vendor/Plonky3/poseidon2-air/src/vectorized.rs",
+      "sha256": "fcd0644cebbcdab46446e6652737c5af775a4e77363cebeae813f00d6d388620",
+      "bytes": 7247
+    },
+    {
+      "path": "vendor/Plonky3/README.md",
+      "sha256": "68f8adb86cfde068ba79b52b101153ff572603ea5859605fe1961e082c2f1d5e",
+      "bytes": 9524
+    },
+    {
+      "path": "vendor/Plonky3/release-plz.toml",
+      "sha256": "f4b5a1131b16a0d4fe0515687f6f0db26128a0b762e43d32ad3adac5e61266f3",
+      "bytes": 2304
+    },
+    {
+      "path": "vendor/Plonky3/RELEASING.md",
+      "sha256": "2f0a2324ca4e9dc766f1d25c17e3f59762ed68c25e2142ead5775a758149b278",
+      "bytes": 1883
+    },
+    {
+      "path": "vendor/Plonky3/rescue/benches/rescue.rs",
+      "sha256": "11baf8a5662acf44a6c2735120e582d6214534a1b82b2337694c5a33575ddb1f",
+      "bytes": 2493
+    },
+    {
+      "path": "vendor/Plonky3/rescue/Cargo.toml",
+      "sha256": "18b3270b7ac708b04fa2d252ebe4ab2327ce038f9eb9bd1f2a908a9826fc904f",
+      "bytes": 731
+    },
+    {
+      "path": "vendor/Plonky3/rescue/CHANGELOG.md",
+      "sha256": "7f6a57e3f6878c874e28b2924154fd5937aabf4bbda653902135e1c8f092e364",
+      "bytes": 1008
+    },
+    {
+      "path": "vendor/Plonky3/rescue/src/lib.rs",
+      "sha256": "7a71cbf754c7f73244d7da95f898a8f06d83aa84dd6fca641be4cfe5f409d7e8",
+      "bytes": 182
+    },
+    {
+      "path": "vendor/Plonky3/rescue/src/rescue.rs",
+      "sha256": "4b9d44259abcbae5295dbedc0ab01d4ba9f0ec152f66c5b309fe9467dea52862",
+      "bytes": 8751
+    },
+    {
+      "path": "vendor/Plonky3/rescue/src/util.rs",
+      "sha256": "aad394868774075573e0e7b406e49e3642a1349f3134eb038689ee658e25cec9",
+      "bytes": 3949
+    },
+    {
+      "path": "vendor/Plonky3/rustfmt.toml",
+      "sha256": "adc079ab9d82d8766a04571440f3deefa34218417ccb5627c79780f50ea70b6c",
+      "bytes": 94
+    },
+    {
+      "path": "vendor/Plonky3/sha256/Cargo.toml",
+      "sha256": "3b84716a6031d1bb1bf3ab915f0a02d2c7440d32660692f68620f21f004cda26",
+      "bytes": 514
+    },
+    {
+      "path": "vendor/Plonky3/sha256/CHANGELOG.md",
+      "sha256": "9bc1afeb7e64348369530261248ac91682faf070eb030250578b319d08fac5d1",
+      "bytes": 731
+    },
+    {
+      "path": "vendor/Plonky3/sha256/src/lib.rs",
+      "sha256": "2e34ed895d22abc5c30c7fed1d423d84dd013b30a382b9c94fe940fc35a8caca",
+      "bytes": 2862
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/Cargo.toml",
+      "sha256": "622b177242e46bfb5a5f0d4464bf66f43efdc51a023672533df23fcf7cf2b578",
+      "bytes": 576
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/CHANGELOG.md",
+      "sha256": "02f6ea263f9b58e58867f80a132f577af94ac285e56751c44ba5c6c61bd5fde6",
+      "bytes": 942
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/compression.rs",
+      "sha256": "1084fd936c7d01161b54942443eccfaa51b727110265841b89c50827b71f0c64",
+      "bytes": 5912
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/hash.rs",
+      "sha256": "0b706ec7988796fe67f87e7e7b0d899b6aee97cd06dfaab61d4bce6c59dcf60e",
+      "bytes": 4738
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/hasher.rs",
+      "sha256": "e6bcced28f6acb2a39f52b30990849a2bf92a5b4ac0a5e61904ca70eaff40cfb",
+      "bytes": 1673
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/lib.rs",
+      "sha256": "912930ef0a7f5764724cdee0b7289ab62ce7814462c0fb448d65fab07645fb0a",
+      "bytes": 335
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/permutation.rs",
+      "sha256": "7be81895ba256f8a9faefb1558025f19041c8a08f14bdde9911c7f75dcc1ddd2",
+      "bytes": 1001
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/serializing_hasher.rs",
+      "sha256": "622569f863a510548c8cb15c80d2fd65220055b2f9cc2ea60c0f60a6928b857a",
+      "bytes": 7439
+    },
+    {
+      "path": "vendor/Plonky3/symmetric/src/sponge.rs",
+      "sha256": "51a257d833dabdbc980c1611ce23b9f407afc429d0be590832f9431f7777ae2d",
+      "bytes": 34634
+    },
+    {
+      "path": "vendor/Plonky3/tomlfmt.toml",
+      "sha256": "9c95712bc79851505b8b991a88a2b3ef5d1f3b18f5346cf7ece83ccbdb9ed16e",
+      "bytes": 939
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/Cargo.toml",
+      "sha256": "987ce8f24e55b914bffb4b9d1f98341c27a7c6d5e83fcf61bd1b929d7377b1ce",
+      "bytes": 1342
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/CHANGELOG.md",
+      "sha256": "a9db559892b5418d105b7defa65fc7436fd3d7349370bdffa41ca8673b28d07c",
+      "bytes": 5197
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/config.rs",
+      "sha256": "dc2b92a3cdcd41bbf830a74aca1ec8a15f8c4bad687a9edf1b0840f33bdf3f70",
+      "bytes": 2949
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/error.rs",
+      "sha256": "15c67a26e6132b15f7d445680c6aa53aab1e6c2a0ff604f2d98394fe48d20f88",
+      "bytes": 7184
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/folder.rs",
+      "sha256": "2d0b33e85f8c97518ea3bd3b34506ddf207876c3fbcc2e22ba28f3ee0cddf770",
+      "bytes": 8839
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/lib.rs",
+      "sha256": "b2e4f34e89b642c245523bb23c957341146bea270487a31ea6d569219fc4067c",
+      "bytes": 437
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/preprocessed.rs",
+      "sha256": "e1a80720db80c81ef3949e12612281f3f5ccfa79f35fb181ddae7bf0c81875e3",
+      "bytes": 3454
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/proof.rs",
+      "sha256": "39cadee985409fc6c33f8305c576df4aa2b438d2f28aaba4fcbbaa0d669793e2",
+      "bytes": 1414
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/prover.rs",
+      "sha256": "84945ca6c58101979978776b7f24845127c33c5ca291c65bbe31ae4d34c06c0c",
+      "bytes": 24036
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/sub_builder.rs",
+      "sha256": "3cde88410e217e077b01d14d79fb6171ba20e2115ad59e033b740b506ff6b97c",
+      "bytes": 3904
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/symbolic.rs",
+      "sha256": "14781d0d44065cd801a2e06d5fe34eb28631ab88d7e0bcb6e9f2abee9b54ffa5",
+      "bytes": 8044
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/src/verifier.rs",
+      "sha256": "6e4f7385d7c38a0810904085b04c1858f48111657914cdc43c42cd1dde43de62",
+      "bytes": 18327
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/fib_air.rs",
+      "sha256": "df929e2b17dd4fba8263fcf71a9c5d3f40bb914992a0c5d414d77d8219b1612f",
+      "bytes": 18098
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/fixtures/uni_stark_circle_v1.postcard",
+      "sha256": "650580148b85013c3142f4348d10b0e30b5488dd16521763b496851b9f4e1ce0",
+      "bytes": 29332
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/fixtures/uni_stark_two_adic_v1.postcard",
+      "sha256": "2defe4b9e9c4d9c154b73adb86107d8975e0c9a89331f2818179e14201d7db36",
+      "bytes": 1591
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/mul_air.rs",
+      "sha256": "329ff0b70ba78620069f6105b7ee2bb000ca5be5277d61afc5c54387a37d5b80",
+      "bytes": 11075
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/mul_fib_pair.rs",
+      "sha256": "3cb20b6bd94ca2cc7c41d5901c8e638caa8537de458f0c4e51822636751656a8",
+      "bytes": 10035
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/no_next_row.rs",
+      "sha256": "7df4697151ac4caf9f8d35feeb2bf431c85a68b5778e3ff242475af5370e2026",
+      "bytes": 3971
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/periodic_air.rs",
+      "sha256": "8d7ab6cd79805f4f9f7f323cab616dbca73fa78a40102aee466215727c2187e8",
+      "bytes": 7224
+    },
+    {
+      "path": "vendor/Plonky3/uni-stark/tests/rc_sub_builder.rs",
+      "sha256": "2abf58939508a92380ed93f20e716e362a39a040a159d3113f4b99836d78be77",
+      "bytes": 5448
+    },
+    {
+      "path": "vendor/Plonky3/util/benches/bit_reverse.rs",
+      "sha256": "726cb9d892d40fc0951d8ddcd6008b04ace902531fed7d02b49fce82af8cf398",
+      "bytes": 960
+    },
+    {
+      "path": "vendor/Plonky3/util/benches/transpose.rs",
+      "sha256": "000b14f685df3420b9120b4ad7b350971039ee989d51a8f1cdfcdedab8a961d0",
+      "bytes": 2667
+    },
+    {
+      "path": "vendor/Plonky3/util/Cargo.toml",
+      "sha256": "bac214a20ccf0bc17e3563c4a9f38dfd4ab409d2575ed92abf6f25bad6e92a7e",
+      "bytes": 882
+    },
+    {
+      "path": "vendor/Plonky3/util/CHANGELOG.md",
+      "sha256": "6d90a56ee40b9509458adc2a215f4ba0b1cd6552f05f70448ec8603bda3c0998",
+      "bytes": 1700
+    },
+    {
+      "path": "vendor/Plonky3/util/src/array_serialization.rs",
+      "sha256": "c7679b89fe79fe6db711bb16e43778596f2b8fb609be5a9e4f64089e2ef5f54a",
+      "bytes": 2996
+    },
+    {
+      "path": "vendor/Plonky3/util/src/lib.rs",
+      "sha256": "356857c9a806642d3b694725b7ac0f03edae2f8ed923167c4ce05f59dcbdbdb1",
+      "bytes": 48543
+    },
+    {
+      "path": "vendor/Plonky3/util/src/linear_map.rs",
+      "sha256": "10c98ddf391c13d9b6f5156d976d8819069a6e4059311bd58913ea0baca53722",
+      "bytes": 9479
+    },
+    {
+      "path": "vendor/Plonky3/util/src/transpose/mod.rs",
+      "sha256": "5be16508d519927a54ab824c746efc99def9ade83843e76b6ba4de8bcade8e0c",
+      "bytes": 227
+    },
+    {
+      "path": "vendor/Plonky3/util/src/transpose/rectangular.rs",
+      "sha256": "994b2de3a54f2dbadae7a16587a8b1f0557d36b6a38ba593820063ca122cec15",
+      "bytes": 77866
+    },
+    {
+      "path": "vendor/Plonky3/util/src/transpose/square.rs",
+      "sha256": "f6da1fe81f32febb48c472d529241ea4542f69451ca7f01e45ccd3ed8b16a7c3",
+      "bytes": 12362
+    },
+    {
+      "path": "vendor/Plonky3/util/src/zip_eq.rs",
+      "sha256": "65ffc0b4ef7ee7dba7a978c4edef00e964ebbcf2a4f81734e77dbe788ebd82c4",
+      "bytes": 3814
+    },
+    {
+      "path": "vendor/Plonky3/whir/benches/sumcheck.rs",
+      "sha256": "30d7f870a7fc20120db1338356011e887e76167e47330f01bb2eb339139ebfce",
+      "bytes": 7054
+    },
+    {
+      "path": "vendor/Plonky3/whir/Cargo.toml",
+      "sha256": "4c2451914a0f2565c004f2e65329ef0420911c8945ee25caaaa17f892800af12",
+      "bytes": 1364
+    },
+    {
+      "path": "vendor/Plonky3/whir/examples/whir.rs",
+      "sha256": "b92c4529413c26458490a6200743cf0b42d5be1554a1af1e56e933491023496b",
+      "bytes": 8990
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/constraints/mod.rs",
+      "sha256": "3c95301929395c0654375c1195169722c06170756e94d877afd7f80e6115413f",
+      "bytes": 29827
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/constraints/statement/eq.rs",
+      "sha256": "c67cf2e2ff5a0e164ad705f30a329e02962571bd4b5d60e7a45e36700028449c",
+      "bytes": 30768
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/constraints/statement/mod.rs",
+      "sha256": "002cc381edb502ee873f2a599e3907d18b84a066cfd52dd02055c68dfc40e626",
+      "bytes": 684
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/constraints/statement/select.rs",
+      "sha256": "be9485ff3ee6a06991adbe88f5e8fc3f3f49d6af592e4a823e4ee25488b7c5d1",
+      "bytes": 46623
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/fiat_shamir/domain_separator.rs",
+      "sha256": "8e906557e2516985b65eade824aa9ec9eb1bf0cd4fa6df722e350373ca92d24c",
+      "bytes": 13907
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/fiat_shamir/mod.rs",
+      "sha256": "c1040afb5c0b12fb13fe0b759857b674b8ddee1a83797ade1d77760f70fe377c",
+      "bytes": 71
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/fiat_shamir/pattern.rs",
+      "sha256": "4983dc08f6282e7bc9def3edbeb4b8b99b05cf8046a98d370e4e31869acd51ea",
+      "bytes": 4332
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/fiat_shamir/tests.rs",
+      "sha256": "cede8ab28b07521183f84711dfcfcb8feb504cbe11b4b1b781e563e46f1a37f8",
+      "bytes": 2172
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/lib.rs",
+      "sha256": "63cd4a5d6f2b3b95edb3a78a86a31671b1ae4a22fb1dc3e7ef6733e9a5481bc9",
+      "bytes": 418
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/parameters/folding.rs",
+      "sha256": "8f9d566795d2b8d576fbd040eceab32918ed38056aeb9c4ba003e654b797d5b7",
+      "bytes": 11684
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/parameters/mod.rs",
+      "sha256": "fe02118a9d3616e8de8348082781d354ffbd459609abc8bd24770086d428f81a",
+      "bytes": 2099
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/parameters/soundness.rs",
+      "sha256": "b9a19c820b5cf1d696839bf7431b2841c309411d1294e9ab94162eb25074c69c",
+      "bytes": 22202
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/parameters/whir.rs",
+      "sha256": "ce92886e4c7e60b5c2c72e69acae4bb320f5ddd885c0ddcea6bd87062cbd22a8",
+      "bytes": 27441
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/adapter.rs",
+      "sha256": "78983cdd5d972e7dbcc838f0b50cb5c81944e7cd69ebdfc8463f40f909860c2d",
+      "bytes": 5526
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/committer/mod.rs",
+      "sha256": "41bd33f185ed464a0289ddb24bb8a92a2eb237b2a1d64b304f413eeeba2a0541",
+      "bytes": 433
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/committer/reader.rs",
+      "sha256": "ea8edb7983eb42ef06d9bc4d0138590b97c84b99fb5b2cbd41c64184086239a8",
+      "bytes": 3506
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/committer/writer.rs",
+      "sha256": "b10c6c6309294313e6bd6fc3206001ed9d3741ac227ab5dbde116bd3eafa188c",
+      "bytes": 4731
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/mod.rs",
+      "sha256": "b0b1f686af7375085fa1902657856180da5f0bb09926dc8b93055cb8fc783233",
+      "bytes": 222
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/proof.rs",
+      "sha256": "c59337e18545125b94c7b5bfdfed9b6f1c5222b8806b5d816ea0f8f9ede5f2c9",
+      "bytes": 6638
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/prover/mod.rs",
+      "sha256": "7c336f9748f07fbf83bd8d2eb22ad3145c8f8457db30ddec946e2b9d3b589230",
+      "bytes": 14579
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/tests.rs",
+      "sha256": "34f09e9415f62c08ba0283e32567e80eb74a6a5643556c755152b0a55ed78580",
+      "bytes": 22531
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/utils.rs",
+      "sha256": "b4f2c077246d2bb004ede5c1df873b2f448ad86b87448d0391e1b675a023a696",
+      "bytes": 11749
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/verifier/errors.rs",
+      "sha256": "0c99b3c0209660c4ab64c53487148b86bf91b088823d10a5d2bfa6fb976e4a29",
+      "bytes": 2411
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/pcs/verifier/mod.rs",
+      "sha256": "79c6872da405842b0b52562dc91628af5b75767cd32f14ea475aeaaae4bf98d0",
+      "bytes": 14719
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/data.rs",
+      "sha256": "30fd323ca4c258eba37f815f23e02af02bcfd9a7f5b1749fd3870e1776b1c91c",
+      "bytes": 6023
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/error.rs",
+      "sha256": "148b30b63e6d8db6f59ab86317267020d3c6090f39347b3fa844f6fd205f16fe",
+      "bytes": 884
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/lagrange.rs",
+      "sha256": "ef2abb033c3fce14c947838e6901717610b4406a683d2f37525efbc50157ee42",
+      "bytes": 7431
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/mod.rs",
+      "sha256": "2599272983c01a6a52819b30a9666342ae106157c933988cc5ad8b5e7d731f4d",
+      "bytes": 5024
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/opening.rs",
+      "sha256": "672632bab835eeb672ea951ae0602cb1c271e1b564613c005390b79ac27e4880",
+      "bytes": 9511
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/plan.rs",
+      "sha256": "72c0a29212be3a6ec3ccb6e25faea8c19150ea5bef5f1d8442ca64f784c3aed8",
+      "bytes": 5919
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/prover/mod.rs",
+      "sha256": "a2d9513d7077b5fc9f86f9ae19e5f1f66b26b81d82da02b3b51ed0e4f0dca315",
+      "bytes": 25820
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/prover/prefix.rs",
+      "sha256": "b83cd04d811dcf0dea7ef2cc55e2578f4de57610543eefd0449e9ef57f1628c3",
+      "bytes": 16517
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/prover/suffix.rs",
+      "sha256": "a8e65550c84db3d17e3d70cd7bf778f56c329be3b59cd5aa241e7ddaf045ad79",
+      "bytes": 23823
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/verifier.rs",
+      "sha256": "7001b222ee66c179ef68f49563fc69d475d99aea9a9abede5a0b9b0b9730fc67",
+      "bytes": 16897
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/layout/witness.rs",
+      "sha256": "677bb9c0a9b7466bd94f87c0ed0f29d4d89819d8082f69d26ce4bc9940e910a6",
+      "bytes": 33821
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/mod.rs",
+      "sha256": "22c8d5bd2a15c3c323f011fc5bb5e9e7ed05aebb97a48ea430e89a8052817140",
+      "bytes": 1954
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/product_polynomial.rs",
+      "sha256": "f7fd91862cca3402965e6d440dae9805b664eaa7494cfb5f6dbbc99c7f7efc21",
+      "bytes": 42724
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/strategy.rs",
+      "sha256": "0a69b0ecedc11c58947f0a5ab6e2007516ff3993a5be4b3a7143f1bdd69ce953",
+      "bytes": 21816
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/svo.rs",
+      "sha256": "3fecb17772f6109afbf678fd6eef381b194ca69b6c0712f2f0bb8b4fcf54c20e",
+      "bytes": 55455
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/table.rs",
+      "sha256": "6e026f8895822e6057e76180b372e7bcf8a6f8dbe2c357f529abf4f6cc0a7106",
+      "bytes": 11604
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/sumcheck/tests.rs",
+      "sha256": "750bca0e42c213e52f0d709f0b5073d29bcc92efe780ee60f2bfa6258c31865d",
+      "bytes": 21570
+    },
+    {
+      "path": "vendor/Plonky3/whir/src/utils.rs",
+      "sha256": "16764809a4406736e9cc9c63adf34af8c09bc4c78a1d9139086d42f7ffe0aa39",
+      "bytes": 9914
+    },
+    {
+      "path": "vendor/Plonky3/zk-codes/benches/rs_encoding.rs",
+      "sha256": "3a7125994a7c01b2967662c2b95c19532ba1954883ebb33b5dac63cc4ec8ed4c",
+      "bytes": 1537
+    },
+    {
+      "path": "vendor/Plonky3/zk-codes/Cargo.toml",
+      "sha256": "6e76b1176999c134107223fb0c83cfeb7e9835dc5364870422ef651624ff2dbb",
+      "bytes": 792
+    },
+    {
+      "path": "vendor/Plonky3/zk-codes/src/encoding.rs",
+      "sha256": "907f2b67dd579d4dd4a3815568107000681f9cfa445ed191c5bb203234873d57",
+      "bytes": 2308
+    },
+    {
+      "path": "vendor/Plonky3/zk-codes/src/lib.rs",
+      "sha256": "d769054bc00c28bb6b957a827534c68ee04c4517794be88656cf266685218a08",
+      "bytes": 193
+    },
+    {
+      "path": "vendor/Plonky3/zk-codes/src/reed_solomon.rs",
+      "sha256": "cf1c3512b63d76e9024e5c7bdc92e3d1fab1572c6331577c30657a81b2f17d97",
+      "bytes": 21008
+    },
+    {
+      "path": "vendor/PLONKY3-PIN.txt",
+      "sha256": "af85fd004739268948eb0ed8c0612492297e3d8ec1324f537cb3d0046b39d3d6",
+      "bytes": 42
+    },
+    {
+      "path": "vendor/zkmcu/crates/zkmcu-host-gen/src/pq_semaphore.rs",
+      "sha256": "03acb5f566fa5ae53fe0e4df45c2abc5baeee432125923dee4ef057cf1cafc32",
+      "bytes": 5042
+    },
+    {
+      "path": "vendor/zkmcu/crates/zkmcu-verifier-plonky3/src/pq_semaphore.rs",
+      "sha256": "273e9b7511636e9ecf7356251b8ebfa99f82c6038590f9c8ffcaa99a96a91913",
+      "bytes": 43854
+    },
+    {
+      "path": "vendor/zkmcu/LICENSE-APACHE",
+      "sha256": "88d09b6f6811570e8cf0111bda03d66a5afacda2f373bc886c734610b8e9ab76",
+      "bytes": 11501
+    },
+    {
+      "path": "vendor/zkmcu/LICENSE-MIT",
+      "sha256": "1e19c4111701d4754b8cfb19d6fa72739d241c16011fec40a3424af240cb45d0",
+      "bytes": 1111
+    },
+    {
+      "path": "vendor/zkmcu/README.md",
+      "sha256": "95befa82cd5252d92bdd02ed259d109658cfd93b41f0e9b8bc964b1ef909befc",
+      "bytes": 1072
+    },
+    {
+      "path": "vendor/zkmcu/research/notebook/2026-04-29-pq-semaphore-air-design.md",
+      "sha256": "3ed65b4ee056a0f59a0b13ff80cf8ec15a57ab139cc90b53c2e361dd83448f78",
+      "bytes": 22909
+    },
+    {
+      "path": "vendor/ZKMCU-PIN.txt",
+      "sha256": "aae09432b8180208e07e469141d90077222aac4f1111b31d3b0c2144aaae5a71",
+      "bytes": 348
+    },
+    {
+      "path": "verifier/embedded/Cargo.toml",
+      "sha256": "71b56ce577720cbb732dbf7fbf4063333098edb411e9b5ed38d376ca421812f3",
+      "bytes": 232
+    },
+    {
+      "path": "verifier/embedded/src/lib.rs",
+      "sha256": "53e04e87dec20e1346016ffc3c3d94c71cf38c085ac8d0d9cac5696cc26cc967",
+      "bytes": 1529
+    },
+    {
+      "path": "verifier/zkmcu-zk/Cargo.toml",
+      "sha256": "6a00f607427591c793736df10d08e209488e3d026e8d6898499652fa1f582840",
+      "bytes": 1500
+    },
+    {
+      "path": "verifier/zkmcu-zk/src/air.rs",
+      "sha256": "42775c45035d9c87b3af42fcc234c1993e9863c6439ab149cfd2c93766d3518e",
+      "bytes": 38781
+    },
+    {
+      "path": "verifier/zkmcu-zk/src/config.rs",
+      "sha256": "8f30dbd25df52bd5b1635f5f4e9de37b31d9908613a6041aef4435f71449e7fa",
+      "bytes": 1946
+    },
+    {
+      "path": "verifier/zkmcu-zk/src/lib.rs",
+      "sha256": "2981038084f394bd8d3f57062c8a68944beb4ef50edeb47c99615736205b7b14",
+      "bytes": 5542
+    },
+    {
+      "path": "verifier/zkmcu-zk/src/main.rs",
+      "sha256": "5fcae2c856f1c36919d76b0fe2d4f149d700a212e733ba791263459c5f2c5cc7",
+      "bytes": 247
+    },
+    {
+      "path": "verifier/zkmcu-zk/src/memory.rs",
+      "sha256": "05703fb6609cc5f05896be397ab0a7ead8784aa923a35bdb5593fe8c7d103654",
+      "bytes": 949
+    },
+    {
+      "path": "verifier/zkmcu-zk/src/wallet.rs",
+      "sha256": "1ad5f96b0bb88a1a93f78ce273b6deef4e91a27bc43dd3f3bbde42ef6ab8b598",
+      "bytes": 7619
+    },
+    {
+      "path": "verifier/zkmcu-zk/tests/security.rs",
+      "sha256": "9c86e3962e7a8d843a14370bafb0444160c2162d82789799b6cea46080a29fa2",
+      "bytes": 5938
+    }
+  ]
+}

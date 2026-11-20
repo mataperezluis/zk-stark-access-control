@@ -1,0 +1,11 @@
+[workspace]
+members = ["verifier/zkmcu-zk", "verifier/embedded"]
+exclude = ["vendor/Plonky3", "vendor/zkmcu"]
+resolver = "2"
+default-members = ["verifier/zkmcu-zk"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+

@@ -1,0 +1,906 @@
+﻿[
+    {
+        "path":  "CMakeLists.txt",
+        "sha256":  "C1F2367BA8261F1C2BA2BE1C1267DBF7BC782BB5EF554490228A71723442C1B2"
+    },
+    {
+        "path":  "dependencies.lock",
+        "sha256":  "D1CF7D970FCCE36C76D1EFBC18943B9ED527FFFF094394660CDB669F496B8097"
+    },
+    {
+        "path":  "platformio.ini",
+        "sha256":  "4DE43073406BCFF6B5285EC30B6BD47EB3F2DD2D7AFFF36CE03FC326292C5E7F"
+    },
+    {
+        "path":  "partitions.csv",
+        "sha256":  "FC4D62384EF2808D34B51EB3EB8CFCA7C9E9466C8C4762DE65ADBB81F31A909B"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "1E21AE2403201C3614E057C1BBE1C9C0845FE065ADB2604D6378742F3871038A"
+    },
+    {
+        "path":  "sdkconfig.esp32-s3-devkitc-1",
+        "sha256":  "806BC1B24A1E3ED9C83D23C06CB4294E2E21B207F3D72A0D0605F45D3EFE1CCC"
+    },
+    {
+        "path":  "sdkconfig.defaults",
+        "sha256":  "3BBFBF2ABDA67AA3ED3DDDD4AF8CDC4AA41A78598926FD5B9A410F4B7D0A0FD6"
+    },
+    {
+        "path":  "src\\weather_ui.h",
+        "sha256":  "494BBE4CEDBE287B1B1C7C22FB350F190230C7EF6553D9CD63B8555ABB8BC990"
+    },
+    {
+        "path":  "src\\weather.h",
+        "sha256":  "50956AF7EEB0611F509618A32DE552D54512A751D055EC9D676C735B1DD696BD"
+    },
+    {
+        "path":  "src\\weather.c",
+        "sha256":  "53150CDDE8AE863F1DA58D34D8C841E6F4736CC01E91001265AA28C6CE5C1583"
+    },
+    {
+        "path":  "src\\main.c",
+        "sha256":  "7CE63BB312C18D66924560639D48B596DC5F9EFA8C5BB486D76C89AAC5D98BA6"
+    },
+    {
+        "path":  "src\\idf_component.yml",
+        "sha256":  "AB5C7F8B2472D059111DAC3E5336B2BF13C2D225EE6945909E8B0CCF8970588D"
+    },
+    {
+        "path":  "src\\CMakeLists.txt",
+        "sha256":  "9C56B4073DBD38C51C01886F4FE6F065E9F779558AE497BBD788BEF790DA403A"
+    },
+    {
+        "path":  "test\\README",
+        "sha256":  "95291BCE496CD8B6F92AB6F9359119D77F02FC22EEC7047CC38CC818A38C2B5D"
+    },
+    {
+        "path":  ".gitignore",
+        "sha256":  "D952ABF002D5E1EC80C8AB1BFC9F38EB5B62FC310667D501CB2CE9F21C3EFFB2"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\sbom_cJSON.yml",
+        "sha256":  "A47DF162C2671B1F4BC79A84875BA5E2CC2021C5CB73A60150951C1C16265E3D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\README.md",
+        "sha256":  "A3947FEA0E24B4069F93A5379E2FB3103B48C339C1DD4368F714469FA8DA4904"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\LICENSE",
+        "sha256":  "A36DDA207C36DB5818729C54E7AD4E8B0C6FBA847491BA64F372C1A2037B6D5C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\Kconfig",
+        "sha256":  "B6B494BF761D2A358ABC941FCBA2B9A2BD961CCF4DD6A5CEDAF7CDE19830003C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\idf_component.yml",
+        "sha256":  "8CF02081BF037B8D0B89E613F5803D463D4A93D2EAB892C4BBE20020CDBD4396"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\CMakeLists.txt",
+        "sha256":  "ED52BEDEF7B81AB94F0229EB17680E1C90DE6776110E2D24A1FF12FD4B4A4D8D"
+    },
+    {
+        "path":  "include\\README",
+        "sha256":  "DC6D9BE88119A80EDF773EB5A659F4470CAF81ED5E95DBFD0CD3C7A9686CCD8C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\.component_hash",
+        "sha256":  "52058EA302F65DD2242467607D871C5391384F6EB6099C5742B4E877F9470184"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\CHECKSUMS.json",
+        "sha256":  "AA07CB0A25B584460B3DD4119384AF41BBEC0DDC49C0EFA0CBD015CBB439F9D3"
+    },
+    {
+        "path":  ".vscode\\launch.json",
+        "sha256":  "8F90DA192E0D48B53546CD0CFD153008043ED6991F13FC756160784732D64E2B"
+    },
+    {
+        "path":  ".vscode\\extensions.json",
+        "sha256":  "31CC8F05084D96B65BE8F147533017C7A1B89B055D85886A2E4AB3CE532F34FB"
+    },
+    {
+        "path":  ".vscode\\c_cpp_properties.json",
+        "sha256":  "AE0A7EFE303F9EF39AF853F24E10E54B690DBA6FBB5EB79F78F9858F5DE7C9C3"
+    },
+    {
+        "path":  "lib\\README",
+        "sha256":  "9E753E4BEF2BB4C7A3784561F50D0C42CEB7BD0C65F183E73209E86EC9892192"
+    },
+    {
+        "path":  "components\\esp_lcd_jd9853\\SOURCE.md",
+        "sha256":  "0D1C45CD699C5A215B878DA63D36F77A304431E78CC72904879CD4E57C092474"
+    },
+    {
+        "path":  "components\\esp_lcd_jd9853\\CMakeLists.txt",
+        "sha256":  "D283938A2A1D4F169856C99952B0927220C1B0717F7991550B600FFCBD9A3B8B"
+    },
+    {
+        "path":  "components\\esp_lcd_jd9853\\esp_lcd_jd9853.c",
+        "sha256":  "1150DEEE0A34E7F17DA49B4DCA1A64C3B2D2638656253AEC120D6DE971FC6791"
+    },
+    {
+        "path":  "components\\esp_lcd_jd9853\\include\\esp_lcd_jd9853.h",
+        "sha256":  "D67ECBB84B1D180117F3F38CC89ACD92B8C3F6E9FD4C5DEA76F944997E448CF9"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\platformio.ini",
+        "sha256":  "0C670FB6251A971FF5CAA3239C83BB9C4436866E02E4DBC544969D58174AC28C"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\CMakeLists.txt",
+        "sha256":  "DD0B0D5B4148C947B266FB59AD9E67B23D675B92CCD4B45E009B09715843061D"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\.gitignore",
+        "sha256":  "C00E0A5EDB21CF7C40BF4346D647BF52A97C8C91F8007A87F2C57B2251A3FE57"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\sdkconfig.defaults",
+        "sha256":  "DE3EC3D341CC8163E1562A7C6D711C6856646A51F05196FE80A81EE73C8E44F8"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\requirements.txt",
+        "sha256":  "95FDAD543F34E4A191CD17219E1A73B4AB4B0B5AD9806A25C3B49E7B48AB8CA0"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\config.example.json",
+        "sha256":  "FB9E97D1A4B52055856FB3D531488B96B470B65EBD08685EA751AFC564FE2DFF"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\README.md",
+        "sha256":  "2378D0CB0301DAEDFAD356B00FD97663BDC4D337571CA5F41A7CDEBDDD3DC4A8"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\sdkconfig.esp32-s3-devkitc-1",
+        "sha256":  "E14A3EAC4140725940ECB8A6197F99D70BF31D41A28D4C757CAAD81F9CF50F2C"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\docs\\VALIDATION.md",
+        "sha256":  "77C73B7F869596EF6F7138E54FB23665AD3F9774E48FBD1558E3015662A15EEF"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\docs\\HARDWARE_SECURITY_PLAN.md",
+        "sha256":  "A937D78122B32DE18B3AA7ACF917D89656459886CB10B21E2971E6903FD289D8"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\docs\\benchmark-real-2026-11-10.json",
+        "sha256":  "1745D4BA459F760E3B97BCC08D907318386FFD2F0BD5D71E0D670F4EB95E7403"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\docs\\benchmark-display-2026-11-10.json",
+        "sha256":  "2E3775CC4284819E99BB8E553BCD0B5F957AEC4991328CA96B70F2AFF98CBD8F"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\tests\\test_hardware.py",
+        "sha256":  "65174D37646136BEB73A4978035870919388539760744C281D2D852AF73A5207"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\tests\\fakes.py",
+        "sha256":  "4034920E2338D63E53B39AC6341D9D993766B0D1EFAE51CB61E868D5A63D14C9"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\tests\\test_host.py",
+        "sha256":  "275D5B3C9646ECA982500C2880081EEFE272BDB15C8774544BCC0B2A84DDFEAD"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\components\\esp_lcd_jd9853\\SOURCE.md",
+        "sha256":  "0D1C45CD699C5A215B878DA63D36F77A304431E78CC72904879CD4E57C092474"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\scripts\\development_key.py",
+        "sha256":  "970A37FC7164C6416E2D525E0BC8D82D3AC8B4CDA88F39B48B7783AF2F5CDDB3"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\components\\esp_lcd_jd9853\\CMakeLists.txt",
+        "sha256":  "D283938A2A1D4F169856C99952B0927220C1B0717F7991550B600FFCBD9A3B8B"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\components\\esp_lcd_jd9853\\esp_lcd_jd9853.c",
+        "sha256":  "1150DEEE0A34E7F17DA49B4DCA1A64C3B2D2638656253AEC120D6DE971FC6791"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\display.cpp",
+        "sha256":  "18F2DB0537A68A853693BCE093D98F3F5924E459A7D29F34B8D4F40635FFB0AC"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\crypto.cpp",
+        "sha256":  "A6FD2CD53390C4943AFF0874EE5D08336AA9E9A249B706A00C54C062EF98C25E"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\CMakeLists.txt",
+        "sha256":  "5F4CDD54D0B3C5181B2107F7BE6A9E1E97F66B97BC078AF54B5138D941396A96"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\crypto.h",
+        "sha256":  "6522CCED0BF7D3BBC617011E6614608526CD4838AE04532E67FABCBAB9D1DC68"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\display_font.h",
+        "sha256":  "704068D513538D549F8395217FC76BCBF1CAD1545AEAE5F6949F34EBDEC3A954"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\display.h",
+        "sha256":  "47A7EB0CAF58E04971824F660E24AB34463EC05F7F4E2922C93EF3F8BDE90803"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\main.cpp",
+        "sha256":  "471E866473AD7B6E5C4A3708CEDE0955D47707F51B6C6462E00C9647A60A01B2"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\protocol.cpp",
+        "sha256":  "01EFCAF30C4CC5D4FF6CE489D5AB473DD941869EEAD885E74BE5137399CD0990"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\src\\protocol.h",
+        "sha256":  "CC7CD8F40F4232441AC3C9F649C1A99B442EC38635A7530834F56BF313F1A9D8"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\secrets\\validation-wrong-key.hex",
+        "sha256":  "1BA2E1737C3CE40E2A8AF05B3B86213308496F4DFD3DA26E6E93839E7091BE30"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\secrets\\dev-key.hex",
+        "sha256":  "303460B1B3BA009B9822B91A849BFADF1A3DA1E57577E335235C01A6877D74A8"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\valgrind.supp",
+        "sha256":  "5F721F7CFF3ACB7712AF9836CDEC19B7F352B851D73829B8E37E994E6F513EC1"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\components\\esp_lcd_jd9853\\include\\esp_lcd_jd9853.h",
+        "sha256":  "D67ECBB84B1D180117F3F38CC89ACD92B8C3F6E9FD4C5DEA76F944997E448CF9"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\cJSON_Utils.c",
+        "sha256":  "BF3092696763A9A446C39365D7C35F23E5ACFDCA1BD1DA33EF66C1161F9243E9"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\cJSON.h",
+        "sha256":  "25B0145150D500498E4D209CEC69C18C42CF818BFFCC54690BE3B895A2A16DEE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\cJSON.c",
+        "sha256":  "607E756460FA0DE37D20A7A9181F2DE29C97BFB7CE5A0E6C2F548243836CD852"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\CHANGELOG.md",
+        "sha256":  "ADEC9EEEE3C855842A770E75F2B4538A3BB21CC998D832395FFF361DBD21D316"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\appveyor.yml",
+        "sha256":  "48E9F4F585DF68114D2213B6F9113D7D32EC3626689A90DFB63A2450D72B7509"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\.travis.yml",
+        "sha256":  "5E0EB8ED93A5E590CE7E72A6FE26DB8DF20804E872EA253254F46DFE29AC5FE2"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\.gitignore",
+        "sha256":  "C894DAD853994898D6328BFEE88FB6E4A01AD15EC587C66D149841ACDEB7716D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\.gitattributes",
+        "sha256":  "51901378D0408DB37A541AF075C3673F919FEB8C50DC4FB077E31D086FCF3F3B"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\.git",
+        "sha256":  "2AF511596D328B1E545B079746663861FE439D64F4F7BAC297CBD22DCE46A4F4"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\.editorconfig",
+        "sha256":  "B2B78DBE3B29690F9AC605B0C6D998CA25E89D578198D3CBA935CD66C94DEDE1"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\README.md",
+        "sha256":  "A3947FEA0E24B4069F93A5379E2FB3103B48C339C1DD4368F714469FA8DA4904"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\Makefile",
+        "sha256":  "410BDEB55E6B8ECD49A6D34F61CE53E2E7643136C8AEBE148BA1BAA28C505B94"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\LICENSE",
+        "sha256":  "A36DDA207C36DB5818729C54E7AD4E8B0C6FBA847491BA64F372C1A2037B6D5C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\SECURITY.md",
+        "sha256":  "213C3A4C10FB81BA6B431AB259513C262023685191D6A6BE2CCA0B39CE6FD1E0"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\test.c",
+        "sha256":  "9073E70D626D83F202768C3A486AA5496AC33277B7F265FDBA200888FC93941E"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\host\\hmac_lab.py",
+        "sha256":  "076A31711ED79A5CFFEF395A0799E663E6B24FE593F5FE4144B95031D4825D77"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\host\\__init__.py",
+        "sha256":  "F8AFFD86EC95C61ABAD73541C01A9B0E68B999BCF63009D7921E586D47B0755E"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\host\\client.py",
+        "sha256":  "64881059166AC1AF2298C95446B248A427E410C2C846F86C10A8E759D84FABD2"
+    },
+    {
+        "path":  "proyectos\\nuevo_proyecto\\host\\protocol.py",
+        "sha256":  "016071DCC23F5482473FC03EC5662F27B21B7F7293D8BC328851D5B295376439"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\CMakeLists.txt",
+        "sha256":  "160C8E123CDC5FA89EDBB3866EEAA17A7A40503985B26F8FFC6D3F92AB6C4763"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\cJSON_Utils.h",
+        "sha256":  "1050A7CCE8FFE352C509E0C1FAAD505B9B8A09CAC3A1C45C544447868E05F3B5"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\CONTRIBUTORS.md",
+        "sha256":  "48B3C704097B40D9EF908DB883001041BAFD051B4D2787957438F2A71F7FB63C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\library_config\\uninstall.cmake",
+        "sha256":  "3B0CF68D1BABFB6A72EA673EF24276795C062432C785A0DE77FB69FF11145124"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity_setup.c",
+        "sha256":  "5F00CE6EA0455D5B898B5DA3ABC483E616F7D1F37FD2F8CC0CA84B09FF23E067"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\library_config\\libcjson_utils.pc.in",
+        "sha256":  "9DF4BD96583141C2B735B3215D0FB66C0D28364B39278DE41EF676C0B27BEB68"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\library_config\\libcjson.pc.in",
+        "sha256":  "051388AE79065C08400DAE18CFEDF32ABBAA34B6A4DB9CF547D8DB2FF5B04B9B"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\library_config\\cJSONConfigVersion.cmake.in",
+        "sha256":  "8A8E1A78F45A121DB7732CD81800530B82FC5ACE4CD410AA401ADE6AA49315AF"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\library_config\\cJSONConfig.cmake.in",
+        "sha256":  "CE9B592EAE998427AAD7B506E4A7661DB303EF038C524F2FCC7BA56319A26C65"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_examples.c",
+        "sha256":  "E1D1E69D69377EB01050CC85F4F10218CD7C0CEF9E63418C21C39ABCED5DC373"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_array.c",
+        "sha256":  "D9FF0F6B59708F341E3FF1EA8D3915C4E4104C70021E306F9E4E1C2AFC8CCEEE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\old_utils_tests.c",
+        "sha256":  "2DF8A031F08B2ED95C92BF5850022CAC89FDC9C2E24FB47D10DB57A202343D1F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\misc_utils_tests.c",
+        "sha256":  "0A3874130B4F320A3A0F02F1045DF5407D0DF0633E355BBF30BD718915920E31"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\misc_tests.c",
+        "sha256":  "077A0704F3118311597C58C14A5CA323A369E07F0E03D78DFA8D911C32FAB8CA"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\minify_tests.c",
+        "sha256":  "23B0F6AF10660FC7B7A9DA1E8D7083644513525263F56FF8F43FCD2E045BA7E7"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json_patch_tests.c",
+        "sha256":  "348555D7A3FF837E43F47688E25A542CCA1C551B0E557229293D15737AA49D63"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\common.h",
+        "sha256":  "C1F106726A5865965AAD9597687DF8C7BA43B587A495FA5E17C23231A99DDAA2"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\CMakeLists.txt",
+        "sha256":  "4F98FD9F350148CA49E7F0C3A41875288ED67AE63694ADD225B01144FD40856D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\cjson_add.c",
+        "sha256":  "4B9BF117C07E2BE9D1CE5DB32A63F57E479369516F97A91B5F4D6C8AACCFF30E"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\compare_tests.c",
+        "sha256":  "C7D38712A8346763B40E836D9A1C6519E3E2C3EE1510C7493597308594CA1198"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_with_opts.c",
+        "sha256":  "A38E8A2A6986C886C3D44BA2F6D0F549FC00C00C294DD35078AFDF5BDB8A4F36"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\.gitignore",
+        "sha256":  "95B6E450406B13395E5E449B105B785A42C1C67D439762D5BA1B8FBD8DAD9419"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_value.c",
+        "sha256":  "7C675A2840915D5BDA6CB70BF8EA793AE2969C83A6450C21ACAA45470D854C8D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_string.c",
+        "sha256":  "D665EA70B7CB94EB2E370268355BBDB9AB19A7D7E8A4F66C761D36DD134773D1"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_object.c",
+        "sha256":  "87A58DD9A3505E13CEE37AAEDF9EF6E2F458979F201F7D2D596FDF31BCC2D6EA"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_number.c",
+        "sha256":  "DC55D81687735F7D2F3986BF90F4D3EF9F183D73F79AC178E71B123C56D13DE2"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\parse_hex4.c",
+        "sha256":  "308710A6A164CCE203E950D64C0ACDA8A20CC21F0EE19572D7D5C404C73E65AD"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\print_object.c",
+        "sha256":  "AF397C6FC869EBDC68A913B64FFF53219A765A5788DB13FA2908602742B16028"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\print_number.c",
+        "sha256":  "E548A3D5010C5325A451148AF05B7AB7B663800E06914CD0547B0E6B1308CD38"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\print_array.c",
+        "sha256":  "2DE8A850C1A9DF40E105D49CD724AE0F527A8E6DEDD54E5C4FAAD76B2F73ED9F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\print_value.c",
+        "sha256":  "40A7DB740ADC05DF72D9E98D23147B8DE3D9736A237D11168B651EB09B7A177D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\readme_examples.c",
+        "sha256":  "506FA8132EFF2C50A4A80087201AA4C67550F72D3B253EF2DEFA9087C500ED90"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\print_string.c",
+        "sha256":  "0F495B80145ACA503FFCDC5FF0D18EFF87CC33A06A7E398CE251C56407BFB7CF"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\afl-prepare-linux.sh",
+        "sha256":  "C86A6DFEE8758BECB7E44E184A429225F1E99EA705B28FCF37A24F7327A06170"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\afl.c",
+        "sha256":  "179261EE7E9A55E1BD1609BBE9F1995F17E6A5E1611378ABED85B4EDDB1CDD31"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\CMakeLists.txt",
+        "sha256":  "80A356C8AD968C1F88498D89E263A20F46765B8FB343F2B82C290E2FBF8F7065"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\cjson_read_fuzzer.c",
+        "sha256":  "A8E9443438BFB323DCAED5AF86DFC3FAE7DFBC970A992B0AF569A58E1B8C9376"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\afl.sh",
+        "sha256":  "9614B91989583E8FE2E1961B56B47E660FF053DFCCB9B28ECF221320C207B3B5"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\ossfuzz.sh",
+        "sha256":  "A832E5C52839FA54637B052D3CFD9F63DA8DEB66F3EA6890AF3ADF4FF6557927"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\json.dict",
+        "sha256":  "715638FC7AE17E2FAD98C7F5DB17E5834F134E9AA03FE7E89D6C9816646FF12E"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\fuzz_main.c",
+        "sha256":  "880426B8D17E75F41157F0B06D26716D99801B3F9578245183CD4BF718C8C882"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test9.expected",
+        "sha256":  "DC09889048190FE3ED20D5D92186337E5FD3AD34CD000DC711FD17C102FB1B8F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test9",
+        "sha256":  "99956A0476BEF0FA482B71764091DC9AD46851F91DDAC1E62E9B69ABFFB3135D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test8.expected",
+        "sha256":  "CF91AFFE773C43B3301E666B01BBCF96B7CFE24E607A5CDD5807454E25C19BB0"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test8",
+        "sha256":  "8F12CAFFFED5858BCF1DB7ADD4F96E7DDF302CE0920B4262F925720DFE756AEA"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test7.expected",
+        "sha256":  "58A05D06AB633AAD6C15C63F5054F0DA76907DBA2223A7C5914FCAA7FE9982E5"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test7",
+        "sha256":  "800EE3DBE3B5AC0EB3C84D3C408594837D25CB017CFE461F11AFE6B5D895466D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test6",
+        "sha256":  "BBB2D49CF5E36D7F09E3E23843022C61F8226AFBB8B33EC859668AB57173E206"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test5.expected",
+        "sha256":  "7CDD2BF7E176BDF18DB4B0EDD61343C55292F427E1B34BE2081747D9AEE4CA11"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test5",
+        "sha256":  "C13F3E1957DDB0AAEC77173A0AAAE9838F910F8D0B4D6CD0BBDB37E8B49F5BD9"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test4.expected",
+        "sha256":  "21C53D49A9C3C5070D3B98C2C9525EC52CDEFB42A8858ADD687C0F2B50458C48"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test4",
+        "sha256":  "A01E18F77D08BDEF9A872D9C3D2B5F58B86C3ED6DB1F9BF68DB969357B0743E4"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test3.expected",
+        "sha256":  "D4495F02B4C3879F5707C681F5E62BFBC01EAE07B464533C33AA70E9D5190886"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test3",
+        "sha256":  "06FC27D33B348407FE50B34A4C4397E33CB7ACAE094CBEB232DAAD07E7715F60"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test2.expected",
+        "sha256":  "5640449D7438834C6771F2AB5B10773241877B059578A28C38BCCE1903DDAB87"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test2",
+        "sha256":  "BCF0193107B78A8835FE4BBBEE161CAA6D803D709CFF043F2A1191A49D117C7B"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test11.expected",
+        "sha256":  "D24E688E245600EBE2D69EE831993EB8FD1E80857F038F6166BC1721E06C360D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test11",
+        "sha256":  "323ABB1689F7030DF78C587B4D4622341FC155AC8B4FE3C477568EB653EC624E"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test10.expected",
+        "sha256":  "18B7B68090FA1BA3858CBF8D54128B0CA7D4402BC9B457C6734EC5E40AAB59BD"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test10",
+        "sha256":  "8CB1309E2C70A9737A690AB6D0DA386DB20150E50EAF1AEDB3C822F2CDF8B887"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test1.expected",
+        "sha256":  "01CC16B9A569A5B5A5FA3B42703D95FB90C3ADF152283E6D102EA216B62007F0"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\inputs\\test1",
+        "sha256":  "B03C70F84FECD61F88DE1D480A6B151157DB38D1459D79FCB08046189946E6AE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test9",
+        "sha256":  "2933710B91761580FEAFA16315E57281F24B1DEFA74687F38705A511BA05FE92"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test8",
+        "sha256":  "03812794E39A3CEC68AAF709D3FF1F890BDCCAE55F2CCC0C8B5287B79B795E7E"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test7",
+        "sha256":  "FF934C7141F8B6A5429B1A45250024187258C0B030B0EFF236C467FB9440FB38"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test6",
+        "sha256":  "BFE13F225816216354D11C3C147B75414EC69B669CC84DCD2C4B05AE29530986"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test5",
+        "sha256":  "6A9B241591AC80F24357F94D518487501984578411CB57657B79142A8C56F6BB"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test4",
+        "sha256":  "DDB6276D3AEBC311A9B042459F544F80C1B3E1F11591E43926E29B519225530E"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test3.uu",
+        "sha256":  "7AB9252284EC773B973208AA60D48F199A2B72B1F8E1136248171362CBBEBDFC"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test3.uf",
+        "sha256":  "5F0911F8E7BD504FB9485D11F5097A666C323F6A26FC12B865C78C940EFFC595"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test3.bu",
+        "sha256":  "38E8F277565A0DD5194FC8BF1DC028469D70149EBA3B75B730EB8802921C5B27"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test3",
+        "sha256":  "EF5C0435DCDEA047BB105C44A5EA059772CD55EBB4E3DB293849F8E7C3BE6CC4"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test2",
+        "sha256":  "2B3B1A75DCA9CA58523F2BCC9066345220BFF8FBE959DAED1FA2647DBA747450"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test11",
+        "sha256":  "E426FEB8B6664DDAF3FAB041829CE34439161371E6D1C9A3360C11D6B1BB3894"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test10",
+        "sha256":  "0411A8D09C3329FEE6FDD1CFCDAEB8ECC30CC7A150FEA5226B8AF787C22E6099"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\fuzzing\\inputs\\test1",
+        "sha256":  "575A805B8582FCAFE96E4E49B9B0C8CF42A49759ED41AFE1046A27656E126EA2"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\tests.json",
+        "sha256":  "C7C42A57D29A8029D60160EBA8EFA6DAEC560912DCA07772D0E86E64589117B0"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\spec_tests.json",
+        "sha256":  "A26B050292207033E5CCCC5D6102B7BD6F8ADD7DB0D0680E5D46A7ECF40A8C7B"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\README.md",
+        "sha256":  "F995D6A6E1BABF653444B40783B21420A3840962889CF1C1024A70549E603828"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\package.json",
+        "sha256":  "7C808769BF7B0D72976D21273AFB43ED44DF71DD3E3C31B1CD33430B4FF2F493"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\cjson-utils-tests.json",
+        "sha256":  "7903CC19A66BA441CD8808D09490C58749132F5D3FEFCCA8633C7B180D270059"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\.npmignore",
+        "sha256":  "67EE5983A254B254A70464D1700D3E9C5BFC182F84D326129C7826CC7CD5C366"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\.gitignore",
+        "sha256":  "26D17285E59AE0DF0E84CCC5AC8A8E29252AFCAE79C8EE449E231D8072EA4D1E"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\json-patch-tests\\.editorconfig",
+        "sha256":  "1E48756CFCAF64D49BAFB685261BB990308219E32D1C835653BFD93B7C627F7C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\src\\unity_internals.h",
+        "sha256":  "874C2AF0BCEBEAD08D0F609F77E2306A735BA55205B7776D937120CB616D4304"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\src\\unity.h",
+        "sha256":  "2D356DCFFE0F8D887ECE0AD8D5CD0D388AEEF5482800A7B8FEA6D415BE8BCF1F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\src\\unity.c",
+        "sha256":  "B9DC88BA266F4140ADE6CB8B6B74869D9D0927FDC1BF791EF51AE306D4C8F965"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\UnityHelperScriptsGuide.md",
+        "sha256":  "57136398257546B59443EAEC9469166E17664A3DF68112ADBC3765422B90C783"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\UnityGettingStartedGuide.md",
+        "sha256":  "F1845C8483F193271E13E309CB644D8FA20C2FCA30F5A15CBCD2778379178DBE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\UnityConfigurationGuide.md",
+        "sha256":  "7F014F736A317D36D807BC4BDED65D89919E1A9A88FA39CDBFD93202B88C43B1"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\UnityAssertionsReference.md",
+        "sha256":  "2D72B94D517B22FF743245145ED8BB0AB0A6B72C37A5314810D7FF3CABB7AF37"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming.pdf",
+        "sha256":  "251FCB21EA66444941A34F8B932A3BAF0C47AED4C7827215E027006F06013BEA"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\ThrowTheSwitchCodingStandard.md",
+        "sha256":  "A1838B8C9E20AC3C15BF96742B716B6621C0607C9273AE0F92A6769E3AA45F41"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\docs\\license.txt",
+        "sha256":  "3ED9B51DA86F52C729C96CC99FDDE6444B2297C788A9CF4AD1D3649DC34C4985"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\.gitignore",
+        "sha256":  "85C167144D06769A736731BA29A89CB7ECB15283455FAD681387E773B817EE15"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\.gitattributes",
+        "sha256":  "84A5202C7923A8A8108CD15637834C1F35BF76A4F54865074E15D6C5D695B663"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\.travis.yml",
+        "sha256":  "155C12A48818CBC16BB7AFC3B67F70ECBB32C42A7FD1BCAC3C7663E189B23071"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\release\\version.info",
+        "sha256":  "86328F4D3186C9624DA589A8EE8238F55E9518D4C5D8EDD5F3A99A944A41AEC6"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\release\\build.info",
+        "sha256":  "D068D6CFF7B4F86FEA550F0C3A9D37B227C5C18C20DA61D2F73553906484999F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\README.md",
+        "sha256":  "C8922237978B31ECFEB41EA90C93946310CCCD60068D1C8772726266FC3E0A2F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\unity_to_junit.py",
+        "sha256":  "0743F26B5AE67AF204981293337F9CC9A8CB46C90AAA3F46F31FD9658AB65990"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\unity_test_summary.rb",
+        "sha256":  "BA1E76115EBC4D4221A919C682FB3FAAE6D0E375A1D7910C199F2ABFF9CAA736"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\unity_test_summary.py",
+        "sha256":  "8912C5CACEE70C5BE95E35FF4C48746E5ECDC31819FF528F076F6FD64A32DD69"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\type_sanitizer.rb",
+        "sha256":  "ECC5677AC9820F343ACA50893463602FCA940C24DAF07A4784B4E9E0801C3F4B"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\test_file_filter.rb",
+        "sha256":  "3797FD7CFCC40C643F0B66555E751FBBA36BA0C7517C01E3537FFC659AF4EA37"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\stylize_as_junit.rb",
+        "sha256":  "8350EFA8DAC6EA49C460DD0125C979BD011B992528571E640AE8D03FCE703A2B"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\parse_output.rb",
+        "sha256":  "9AF7BB80491C7D01998FBD6B17EF58FD212DBBA89D6D714B1F668D1F879743D4"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\generate_test_runner.rb",
+        "sha256":  "EC7F43DDDFC24648E34871F5BABEFE07F4B427E8EBD2ABF16D51DBAA179E1F54"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\generate_module.rb",
+        "sha256":  "40A016EE8A8C53F1BBAA8B47026318E14FEC1E3742EF55E0EB1B81C11250C4B1"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\generate_config.yml",
+        "sha256":  "85C5702A168E366148E8EC89DF416EAE888278A526C79459162C0F37641A02FE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\colour_reporter.rb",
+        "sha256":  "825B4B4BFC28449C6B24C804D9FFC2D1F1F5855A6655F6101DEBBEB69D461E64"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\auto\\colour_prompt.rb",
+        "sha256":  "B25F12CAB00233838CC1EC2478B78868D8CB380AFF93479DB855CFC73A6A5D6F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\unity_config.h",
+        "sha256":  "C3D7D8F48C9DFB38A4CBAABC2D30A0A5335D2BDD8B454FD70326876E90133299"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\target_gcc_32.yml",
+        "sha256":  "D7AB74BBFF3A1B2A50432636FFBD4D7D7E87DF592BF5A5754DE56275F44CA521"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\eclipse\\error_parsers.txt",
+        "sha256":  "72204789CF143E044ED448E826A7D1EB1CC9C74B580E36902FBAEC98BCA02582"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\rakefile_helper.rb",
+        "sha256":  "3E9CCB2A4370FBC68D1228A115E5A6A5D6AB689DB1805266206A261CDC04F58C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\rakefile.rb",
+        "sha256":  "52800D045E67262E1BD53F9867417B6FC1F56EB7CF446BCBAA20DBA0C41F10A8"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\readme.txt",
+        "sha256":  "5692862A5FBC1910978BE7EA4751899BAFB6B913CE34CFFA5517C0EBA1FE40E3"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\rakefile_helper.rb",
+        "sha256":  "A545C40149BDAEB2592322771B5E180BC103D67C783B23C74DCB8B0FB619A5AA"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\rakefile.rb",
+        "sha256":  "7A1113ADB71787B2AE7CD29FE9A5C7B50DEC87C041AA6500AAA836AE2C4A0D4F"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\src\\ProductionCode2.h",
+        "sha256":  "D4DB1A4EEA2BEE3D668A203D4953F415F23BE64A826C5A73059EF221F61B3882"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\src\\ProductionCode2.c",
+        "sha256":  "A929E7EF393EC5CCC53E3F885D663A1C8FBE5CC5F72A0FCAD5C0D2F6CBC8B210"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\src\\ProductionCode.h",
+        "sha256":  "25CFCC42B79140F4C399363E0EF10A6E518A1831E10C61CC138D6D9A230425CE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\src\\ProductionCode.c",
+        "sha256":  "75136EEC7A43D0DBE980DEA19EC46F6E16C0DA92093686E59F6143D8AE8B5BB7"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\readme.txt",
+        "sha256":  "2AF5E731FB1DB0DDF5C739F0B08FB2724E4ACC7EFB7EE0A02FE474A3E69D284A"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_2\\makefile",
+        "sha256":  "9C925A4B80F11CE51CB65FEF51F8E1279113DC67838C71B5BC8B0C31009E65BB"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_2\\readme.txt",
+        "sha256":  "A03BF4AC2D294A037189B42F7BF8FDFF0BF50524857E3F8933EBA76085F22F04"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_1\\makefile",
+        "sha256":  "367E10EF968648EC5C531F144BB0EE257A619091A76FCC17516C220BF20539E6"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_1\\readme.txt",
+        "sha256":  "4D72D51F1A385CD4AEB594E4485CA2439D5B86247523CD2D2B89ACC2173D8A24"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\src\\unity_fixture_malloc_overrides.h",
+        "sha256":  "446D4A58DD88CE0BCEBA6E095AC4F26A4C55898E67265D688450FA3AACC7741C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\src\\unity_fixture_internals.h",
+        "sha256":  "FBDAFDA4DD395E08FF7503180022C074947D622F4E83256256297CE05C154E73"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\src\\unity_fixture.h",
+        "sha256":  "D99045365D5FC89535B283B9608631883BF5AA35D41665889F25C9BFCB925B29"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\extras\\fixture\\src\\unity_fixture.c",
+        "sha256":  "CF55816CA47F37C29EE446468CA076C96860CA506D47C6832E81CB1D82B48C4C"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_2\\src\\ProductionCode.c",
+        "sha256":  "75136EEC7A43D0DBE980DEA19EC46F6E16C0DA92093686E59F6143D8AE8B5BB7"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_2\\src\\ProductionCode.h",
+        "sha256":  "25CFCC42B79140F4C399363E0EF10A6E518A1831E10C61CC138D6D9A230425CE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_2\\src\\ProductionCode2.c",
+        "sha256":  "A929E7EF393EC5CCC53E3F885D663A1C8FBE5CC5F72A0FCAD5C0D2F6CBC8B210"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_2\\src\\ProductionCode2.h",
+        "sha256":  "D4DB1A4EEA2BEE3D668A203D4953F415F23BE64A826C5A73059EF221F61B3882"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_1\\src\\ProductionCode.c",
+        "sha256":  "29D42FCE2D89D95FB2B14B649D3B2D7406D225A071E01E86D6EC0CDB04C7E614"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_1\\src\\ProductionCode2.h",
+        "sha256":  "D4DB1A4EEA2BEE3D668A203D4953F415F23BE64A826C5A73059EF221F61B3882"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_1\\src\\ProductionCode2.c",
+        "sha256":  "C2CC0A76CB2EA145D3861BD9CCC467AC45AD3E8230D5075ED174CE3A5CD50A76"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_1\\src\\ProductionCode.h",
+        "sha256":  "25CFCC42B79140F4C399363E0EF10A6E518A1831E10C61CC138D6D9A230425CE"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\helper\\UnityHelper.h",
+        "sha256":  "A95BB6D3704C51637BB0855787236B41229E3836601BA97E88768F95779F3D4D"
+    },
+    {
+        "path":  "managed_components\\espressif__cjson\\cJSON\\tests\\unity\\examples\\example_3\\helper\\UnityHelper.c",
+        "sha256":  "091C2466D25DEFFD8958332AD03D393CA1EC1B1F6150C16626D57D5901EB1B21"
+    }
+]

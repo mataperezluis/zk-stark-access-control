@@ -1,0 +1,6 @@
+repository zkmcu
+commit 69b59e6b999ed69c5663878486f425cf8ed8fd14
+Source: https://github.com/Niek-Kamer/zkmcu
+Selected reference source subset; see zkmcu/README.md for the retained files.
+Upstream workspace packages, benchmarks and repository metadata are omitted.
+The independently pinned Plonky3 fork supplies the actual Cargo dependencies.
